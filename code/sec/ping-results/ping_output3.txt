@@ -1,0 +1,27 @@
+PING insec (10.0.0.21) 56(84) bytes of data.
+64 bytes from insec (10.0.0.21): icmp_seq=4 ttl=64 time=1684 ms
+64 bytes from insec (10.0.0.21): icmp_seq=5 ttl=64 time=1218 ms
+64 bytes from insec (10.0.0.21): icmp_seq=6 ttl=64 time=1090 ms
+64 bytes from insec (10.0.0.21): icmp_seq=7 ttl=64 time=1473 ms
+64 bytes from insec (10.0.0.21): icmp_seq=8 ttl=64 time=966 ms
+64 bytes from insec (10.0.0.21): icmp_seq=9 ttl=64 time=501 ms
+64 bytes from insec (10.0.0.21): icmp_seq=10 ttl=64 time=734 ms
+64 bytes from insec (10.0.0.21): icmp_seq=11 ttl=64 time=1407 ms
+64 bytes from insec (10.0.0.21): icmp_seq=12 ttl=64 time=1524 ms
+64 bytes from insec (10.0.0.21): icmp_seq=13 ttl=64 time=738 ms
+64 bytes from insec (10.0.0.21): icmp_seq=14 ttl=64 time=1281 ms
+64 bytes from insec (10.0.0.21): icmp_seq=15 ttl=64 time=481 ms
+64 bytes from insec (10.0.0.21): icmp_seq=16 ttl=64 time=1106 ms
+64 bytes from insec (10.0.0.21): icmp_seq=17 ttl=64 time=1327 ms
+64 bytes from insec (10.0.0.21): icmp_seq=18 ttl=64 time=1111 ms
+64 bytes from insec (10.0.0.21): icmp_seq=19 ttl=64 time=1161 ms
+64 bytes from insec (10.0.0.21): icmp_seq=20 ttl=64 time=1988 ms
+64 bytes from insec (10.0.0.21): icmp_seq=21 ttl=64 time=1508 ms
+64 bytes from insec (10.0.0.21): icmp_seq=22 ttl=64 time=1964 ms
+64 bytes from insec (10.0.0.21): icmp_seq=23 ttl=64 time=1740 ms
+64 bytes from insec (10.0.0.21): icmp_seq=24 ttl=64 time=1253 ms
+64 bytes from insec (10.0.0.21): icmp_seq=25 ttl=64 time=1006 ms
+
+--- insec ping statistics ---
+27 packets transmitted, 22 received, 18.5185% packet loss, time 26240ms
+rtt min/avg/max/mdev = 481.165/1239.174/1988.150/404.463 ms, pipe 2

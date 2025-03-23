@@ -4,6 +4,9 @@ import (
 	"fmt"
 	"os"
 
+	"math/rand"
+	"time"
+
 	"github.com/google/gopacket"
 	"github.com/google/gopacket/layers"
 	"github.com/nats-io/nats.go"
@@ -13,7 +16,7 @@ import (
 func processEthernetPacket(nc *nats.Conn, iface string, data []byte) {
 	// Add your ethernet packet processing logic here
 	fmt.Printf("Processing ethernet packet: %s\n", iface)
-	
+
 	// Use gopacket to dissect the packet
 	packet := gopacket.NewPacket(data, layers.LayerTypeEthernet, gopacket.Default)
 	if packet.ErrorLayer() != nil {
@@ -53,6 +56,12 @@ func processEthernetPacket(nc *nats.Conn, iface string, data []byte) {
 	} else {
 		subject = "outpktsec"
 	}
+
+	var delay = time.Duration(rand.Intn(1000))
+
+	fmt.Printf("Added Delay: %d\n", delay)
+	time.Sleep(delay * time.Millisecond)
+
 	err := nc.Publish(subject, data)
 	if err != nil {
 		fmt.Println("Error publishing message:", err)
@@ -67,8 +76,7 @@ func main() {
 	}
 	fmt.Println("NATS_SURVEYOR_SERVERS: ", url)
 
-
-		// Connect to a server
+	// Connect to a server
 	nc, _ := nats.Connect(url)
 	defer nc.Drain()
 	// Simple Publisher
@@ -82,7 +90,7 @@ func main() {
 	})
 
 	// Simple Subscriber
-	nc.Subscribe("inpktinsec", func( m *nats.Msg) {
+	nc.Subscribe("inpktinsec", func(m *nats.Msg) {
 		//fmt.Printf("Received a message: %s\n", string(m.Data))
 		// Process the incoming ethernet packet here
 		processEthernetPacket(nc, m.Subject, m.Data)
@@ -94,8 +102,6 @@ func main() {
 	// Drain connection (Preferred for responders)
 	// Close() not needed if this is called.
 
-
 	// Close connection
 	nc.Close()
-}	
-
+}
