@@ -2,18 +2,56 @@ package main
 
 import (
 	"fmt"
+	"math/rand"
 	"net"
 	"os"
 	"time"
+
+	"github.com/google/gopacket"
+	"github.com/google/gopacket/layers"
 )
+
+func generateDNSQuery(domain string) []byte {
+	// Generate a random transaction ID
+	rand.Seed(time.Now().UnixNano())
+	transactionID := uint16(rand.Intn(65535))
+
+	// Create DNS question
+	dnsQuestion := layers.DNSQuestion{
+		Name:  []byte(domain),
+		Type:  layers.DNSTypeA,
+		Class: layers.DNSClassIN,
+	}
+
+	// Create DNS layer
+	dns := layers.DNS{
+		ID:      transactionID,
+		RD:      true, // Recursion Desired
+		QDCount: 1,    // One question
+		Questions: []layers.DNSQuestion{
+			dnsQuestion,
+		},
+	}
+
+	// Serialize DNS layer
+	buffer := gopacket.NewSerializeBuffer()
+	options := gopacket.SerializeOptions{}
+
+	err := dns.SerializeTo(buffer, options)
+	if err != nil {
+		panic(err)
+	}
+
+	return buffer.Bytes()
+}
 
 func udpSender() {
 	host := os.Getenv("INSECURENET_HOST_IP")
-	port := 8888
-	message := "Hello, InSecureNet!"
+	port := 53 // DNS port
+	domain := "google.com"
 
 	if host == "" {
-		fmt.Println("SECURENET_HOST_IP environment variable is not set.")
+		fmt.Println("INSECURENET_HOST_IP environment variable is not set.")
 		return
 	}
 
@@ -33,13 +71,16 @@ func udpSender() {
 	defer conn.Close()
 
 	for {
-		// Send message to the server
-		_, err := conn.Write([]byte(message))
+		// Generate DNS query
+		dnsQuery := generateDNSQuery(domain)
+
+		// Send DNS query to the server
+		_, err := conn.Write(dnsQuery)
 		if err != nil {
-			fmt.Printf("Error sending message: %s\n", err)
+			fmt.Printf("Error sending DNS query: %s\n", err)
 			return
 		}
-		fmt.Printf("Message sent to %s:%d\n", host, port)
+		fmt.Printf("DNS query sent to %s:%d for %s\n", host, port, domain)
 
 		// Receive response from the server
 		buffer := make([]byte, 4096)
@@ -48,7 +89,7 @@ func udpSender() {
 			fmt.Printf("Error receiving response: %s\n", err)
 			return
 		}
-		fmt.Printf("Response from server: %s\n", string(buffer[:n]))
+		fmt.Printf("Received %d bytes\n", n)
 
 		// Sleep for 1 second
 		time.Sleep(1 * time.Second)

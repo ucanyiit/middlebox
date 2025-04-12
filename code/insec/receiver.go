@@ -2,51 +2,56 @@ package main
 
 import (
 	"fmt"
-	"net"
+	"log"
 	"os"
+
+	"github.com/miekg/dns"
 )
 
-func startUDPListener() error {
-	// Listen for incoming UDP packets on port 8888
-	addr, err := net.ResolveUDPAddr("udp", ":8888")
-	if err != nil {
-		return fmt.Errorf("error resolving UDP address: %w", err)
+const listenAddress = ":53"
+
+func handleDNSRequest(w dns.ResponseWriter, r *dns.Msg) {
+	m := new(dns.Msg)
+	m.SetReply(r)
+	m.Compress = false
+
+	switch r.Opcode {
+	case dns.OpcodeQuery:
+		for _, q := range r.Question {
+			switch q.Qtype {
+			case dns.TypeA:
+				log.Printf("Query for %s\n", q.Name)
+				// Example: Always resolve to 1.2.3.4
+				rr, err := dns.NewRR(fmt.Sprintf("%s A 1.2.3.4", q.Name))
+				if err == nil {
+					m.Answer = append(m.Answer, rr)
+				}
+			}
+		}
 	}
 
-	conn, err := net.ListenUDP("udp", addr)
+	err := w.WriteMsg(m)
 	if err != nil {
-		return fmt.Errorf("error listening on UDP: %w", err)
-	}
-	defer conn.Close()
-
-	fmt.Println("UDP listener started on port 8888")
-
-	buffer := make([]byte, 4096)
-
-	for {
-		n, remoteAddr, err := conn.ReadFromUDP(buffer)
-		if err != nil {
-			fmt.Println("Error reading from UDP:", err)
-			continue
-		}
-
-		fmt.Printf("Received %d bytes from %s\n", n, remoteAddr)
-		fmt.Println(string(buffer[:n]))
-
-		// Respond to the sender
-		message := "Hi SecureNet!"
-		sent, err := conn.WriteToUDP([]byte(message), remoteAddr)
-		if err != nil {
-			fmt.Println("Error sending response:", err)
-			continue
-		}
-
-		fmt.Printf("Sent %d bytes back to %s\n", sent, remoteAddr)
+		log.Println(err)
 	}
 }
 
+func startDNSServer() error {
+	// Attach request handler func
+	dns.HandleFunc(".", handleDNSRequest)
+
+	// Listen on UDP
+	server := &dns.Server{Addr: listenAddress, Net: "udp"}
+	log.Printf("Starting DNS server on %s\n", listenAddress)
+	err := server.ListenAndServe()
+	if err != nil {
+		return fmt.Errorf("failed to start server: %s", err.Error())
+	}
+	return nil
+}
+
 func main() {
-	if err := startUDPListener(); err != nil {
+	if err := startDNSServer(); err != nil {
 		fmt.Fprintf(os.Stderr, "error: %s\n", err)
 		os.Exit(1)
 	}
