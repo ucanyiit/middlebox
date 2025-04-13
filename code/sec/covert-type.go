@@ -21,7 +21,7 @@ func generateCovertTypeQueries(message string) ([][]byte, error) {
 	// Encode the covert data to dns types
 	encodedData := []layers.DNSType{}
 	for _, b := range covertData {
-		for b > 0 {
+		for i := 0; i < 4; i++ {
 			// Get the least significant 2
 			lsb := b & 0x03
 			// Clear the least significant 2 bits
