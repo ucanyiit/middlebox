@@ -1,0 +1,50 @@
+--- Covert Channel Simulation ---
+Total size of message: 446 bytes
+Number of chunks received: 446
+Reassembly took: 20115156467ns
+Correctness of message: false
+--- Covert Channel Simulation ---
+Total size of message: 446 bytes
+Number of chunks received: 446
+Reassembly took: 40320812477ns
+Correctness of message: true
+--- Covert Channel Simulation ---
+Total size of message: 446 bytes
+Number of chunks received: 446
+Reassembly took: 60563935028ns
+Correctness of message: false
+--- Covert Channel Simulation ---
+Total size of message: 446 bytes
+Number of chunks received: 446
+Reassembly took: 80806583162ns
+Correctness of message: true
+--- Covert Channel Simulation ---
+Total size of message: 446 bytes
+Number of chunks received: 446
+Reassembly took: 101081430212ns
+Correctness of message: true
+--- Covert Channel Simulation ---
+Total size of message: 446 bytes
+Number of chunks received: 446
+Reassembly took: 121251705972ns
+Correctness of message: true
+--- Covert Channel Simulation ---
+Total size of message: 446 bytes
+Number of chunks received: 446
+Reassembly took: 141839843148ns
+Correctness of message: false
+--- Covert Channel Simulation ---
+Total size of message: 446 bytes
+Number of chunks received: 446
+Reassembly took: 162328501699ns
+Correctness of message: true
+--- Covert Channel Simulation ---
+Total size of message: 446 bytes
+Number of chunks received: 446
+Reassembly took: 182505789083ns
+Correctness of message: false
+--- Covert Channel Simulation ---
+Total size of message: 446 bytes
+Number of chunks received: 446
+Reassembly took: 202774742967ns
+Correctness of message: false
