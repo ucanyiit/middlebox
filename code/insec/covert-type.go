@@ -50,6 +50,7 @@ func combineReceivedChunks() {
 	fmt.Println("Received chunks combined.")
 
 	lastSequenceNumber = currentSequenceNumber / 4
+	currentSequenceNumber = 0
 }
 
 func handleTypedDNSQuestion(q dns.Question) {
