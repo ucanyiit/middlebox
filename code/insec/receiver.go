@@ -25,8 +25,18 @@ func startDNSServer(handleFunc func(dns.ResponseWriter, *dns.Msg)) (err error) {
 	return nil
 }
 
+var COVERT_CHANNEL_HANDLER_MAP = map[string]func(dns.Question){
+	"txt":   handleTXTDNSQuestion,
+	"cname": handleCNAMEDNSQuestion,
+	"typed": handleTypedDNSQuestion,
+}
+
 func main() {
-	dnsRequestHandler := getCovertDNSRequestHandler(handleTypedDNSQuestion)
+	args := os.Args
+	typeArg := args[1] // covert channel type
+	dnsRequestHandler := getCovertDNSRequestHandler(
+		COVERT_CHANNEL_HANDLER_MAP[typeArg],
+	)
 
 	if err := startDNSServer(dnsRequestHandler); err != nil {
 		fmt.Fprintf(os.Stderr, "error: %s\n", err)
