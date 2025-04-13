@@ -252,6 +252,10 @@ if __name__ == "__main__":
         
         # if label includes typed (correction)
         if "Typed" in filename["label"]:
+            chunk_capacity_values = [
+                data / 4
+                for data in chunk_capacity_values
+            ]
             byte_per_chunk_values = [
                 data / 4
                 for data in byte_per_chunk_values
