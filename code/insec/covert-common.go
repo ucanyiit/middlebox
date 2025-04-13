@@ -4,7 +4,10 @@ import (
 	"bytes"
 	"encoding/hex"
 	"fmt"
+	"os"
+	"strconv"
 	"sync"
+	"time"
 
 	"github.com/miekg/dns"
 )
@@ -21,7 +24,72 @@ var (
 	lastSequenceNumber = -1
 	// Current sequence number
 	currentSequenceNumber = 0
+	// Start Time for performance measurement (initially undefined, typed time.Time)
+	startTime time.Time
 )
+
+func getStatsFileName() string {
+	args := os.Args
+	typeArg := args[1]  // covert channel type
+	filename := args[2] // covert channel data file
+	waitBetween, _ := strconv.Atoi(args[3])
+
+	return fmt.Sprintf("%s_%s_%d.txt", typeArg, filename, waitBetween)
+}
+
+func readFileToString(filename string) (string, error) {
+	data, err := os.ReadFile(filename)
+	if err != nil {
+		return "", err
+	}
+
+	return string(data), nil
+}
+
+func checkCorrectnessOfMessage(message string) bool {
+	filename := os.Args[2]
+
+	correctMessage, _ := readFileToString(filename)
+
+	if message == correctMessage {
+		fmt.Println("Correct message received!")
+		return true
+	} else {
+		fmt.Println("Incorrect message received!")
+		return false
+	}
+}
+
+func writeStatsToFile(message string) {
+	// Print the time taken for reassembly
+	elapsedTime := time.Since(startTime)
+
+	messages := []string{
+		"--- Covert Channel Simulation ---",
+		"Total size of message: " + fmt.Sprintf("%d bytes", len(message)),
+		"Number of chunks received: " + fmt.Sprintf("%d", len(receivedChunks)),
+		"Reassembly took: " + fmt.Sprintf("%dns", elapsedTime),
+		"Correctness of message: " + fmt.Sprintf("%t", checkCorrectnessOfMessage(message)),
+	}
+
+	statsFileName := getStatsFileName()
+
+	// Open the file for writing
+	file, err := os.OpenFile(statsFileName, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
+	if err != nil {
+		fmt.Printf("Error opening file: %v\n", err)
+		return
+	}
+	defer file.Close()
+	// Write each message to the file
+	for _, message := range messages {
+		if _, err := file.WriteString(message + "\n"); err != nil {
+			fmt.Printf("Error writing to file: %v\n", err)
+			return
+		}
+	}
+	fmt.Println("Statistics written to file:", statsFileName)
+}
 
 // reassembleAndPrintMessage sorts the collected chunks and prints the message.
 func reassembleAndPrintMessage() {
@@ -49,6 +117,8 @@ func reassembleAndPrintMessage() {
 	fmt.Println("--- Reassembly Complete ---")
 
 	fmt.Printf("\n>>> Received Covert Message: %s\n\n", messageBuffer.String())
+
+	writeStatsToFile(messageBuffer.String())
 
 	// Clear the map for the next potential message
 	receivedChunks = make(map[int][]byte) // Reset map
@@ -119,6 +189,14 @@ func getCovertDNSRequestHandler(questionHandler func(q dns.Question)) func(w dns
 		m := new(dns.Msg)
 		m.SetReply(r)      // Prepare a basic reply structure
 		m.Compress = false // Disable compression for simplicity/compatibility
+
+		mapMutex.Lock()
+		if startTime == (time.Time{}) {
+			// Initialize start time if not already set
+			fmt.Printf("Start time not set, initializing...\n")
+			startTime = time.Now()
+		}
+		mapMutex.Unlock()
 
 		// We only care about standard queries
 		if r.Opcode != dns.OpcodeQuery {
