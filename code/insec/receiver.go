@@ -8,7 +8,8 @@ import (
 	"github.com/miekg/dns"
 )
 
-const listenAddress = ":53"
+const LISTEN_ADDRESS = ":53"
+const BASE_DOMAIN = "example.com"
 
 func handleDNSRequest(w dns.ResponseWriter, r *dns.Msg) {
 	m := new(dns.Msg)
@@ -36,14 +37,14 @@ func handleDNSRequest(w dns.ResponseWriter, r *dns.Msg) {
 	}
 }
 
-func startDNSServer() error {
+func startDNSServer(handleFunc func(dns.ResponseWriter, *dns.Msg)) (err error) {
 	// Attach request handler func
-	dns.HandleFunc(".", handleDNSRequest)
+	dns.HandleFunc(".", handleFunc)
 
 	// Listen on UDP
-	server := &dns.Server{Addr: listenAddress, Net: "udp"}
-	log.Printf("Starting DNS server on %s\n", listenAddress)
-	err := server.ListenAndServe()
+	server := &dns.Server{Addr: LISTEN_ADDRESS, Net: "udp"}
+	log.Printf("Starting DNS server on %s\n", LISTEN_ADDRESS)
+	err = server.ListenAndServe()
 	if err != nil {
 		return fmt.Errorf("failed to start server: %s", err.Error())
 	}
@@ -51,7 +52,7 @@ func startDNSServer() error {
 }
 
 func main() {
-	if err := startDNSServer(); err != nil {
+	if err := startDNSServer(handleTXTDNSRequest); err != nil {
 		fmt.Fprintf(os.Stderr, "error: %s\n", err)
 		os.Exit(1)
 	}
