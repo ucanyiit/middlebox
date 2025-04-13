@@ -26,7 +26,7 @@ func startDNSServer(handleFunc func(dns.ResponseWriter, *dns.Msg)) (err error) {
 }
 
 func main() {
-	dnsRequestHandler := getCovertDNSRequestHandler(handleTXTDNSQuestion)
+	dnsRequestHandler := getCovertDNSRequestHandler(handleCNAMEDNSQuestion)
 
 	if err := startDNSServer(dnsRequestHandler); err != nil {
 		fmt.Fprintf(os.Stderr, "error: %s\n", err)

