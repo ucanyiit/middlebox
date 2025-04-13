@@ -4,9 +4,6 @@ import (
 	"fmt"
 	"os"
 
-	"math/rand"
-	"time"
-
 	"github.com/google/gopacket"
 	"github.com/google/gopacket/layers"
 	"github.com/nats-io/nats.go"
@@ -57,10 +54,10 @@ func processEthernetPacket(nc *nats.Conn, iface string, data []byte) {
 		subject = "outpktsec"
 	}
 
-	var delay = time.Duration(rand.Intn(1000))
+	// var delay = time.Duration(rand.Intn(1000))
 
-	fmt.Printf("Added Delay: %d\n", delay)
-	time.Sleep(delay * time.Millisecond)
+	// fmt.Printf("Added Delay: %d\n", delay)
+	// time.Sleep(delay * time.Millisecond)
 
 	err := nc.Publish(subject, data)
 	if err != nil {
