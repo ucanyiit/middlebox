@@ -2,7 +2,10 @@ module receiver
 
 go 1.24.1
 
-require github.com/miekg/dns v1.1.65
+require (
+	github.com/google/gopacket v1.1.19
+	github.com/miekg/dns v1.1.65
+)
 
 require (
 	golang.org/x/mod v0.23.0 // indirect

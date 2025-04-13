@@ -19,6 +19,8 @@ var (
 	endSignalReceived = false
 	// Last sequence number received
 	lastSequenceNumber = -1
+	// Current sequence number
+	currentSequenceNumber = 0
 )
 
 // reassembleAndPrintMessage sorts the collected chunks and prints the message.
@@ -68,6 +70,20 @@ func allSequencesReceived(lastSequence int) bool {
 	return true
 }
 
+func storeChunk(chunk []byte, sequenceNumber int) {
+	mapMutex.Lock()
+	defer mapMutex.Unlock()
+
+	// Store the decoded chunk
+	// Check if we already have this chunk (simple duplicate handling)
+	if _, exists := receivedChunks[sequenceNumber]; !exists {
+		receivedChunks[sequenceNumber] = chunk
+		fmt.Printf("Stored chunk: Seq=%d, Size=%d bytes\n", sequenceNumber, len(chunk))
+	} else {
+		fmt.Printf("Duplicate chunk received: Seq=%d", sequenceNumber)
+	}
+}
+
 func handleHexChunk(hexChunk string, sequenceNumber int) {
 	// Decode the hex chunk
 	decodedChunk, err := hex.DecodeString(hexChunk)
@@ -76,17 +92,17 @@ func handleHexChunk(hexChunk string, sequenceNumber int) {
 		return // Ignore this malformed query part
 	}
 
-	mapMutex.Lock()
-	defer mapMutex.Unlock()
+	storeChunk(decodedChunk, sequenceNumber)
+}
 
-	// Store the decoded chunk
-	// Check if we already have this chunk (simple duplicate handling)
-	if _, exists := receivedChunks[sequenceNumber]; !exists {
-		receivedChunks[sequenceNumber] = decodedChunk
-		fmt.Printf("Stored chunk: Seq=%d, Size=%d bytes", sequenceNumber, len(decodedChunk))
-	} else {
-		fmt.Printf("Duplicate chunk received: Seq=%d", sequenceNumber)
-	}
+// bits can be 0 or 1
+// bit0 and bit1 are the bits to be stored
+func handleBitsChunk(bit0 int, bit1 int, sequenceNumber int) {
+	// Convert bits to bytes
+	decodedChunk := make([]byte, 1)
+	decodedChunk[0] = byte((bit0 << 1) | bit1) // Combine bits into a byte
+
+	storeChunk(decodedChunk, sequenceNumber)
 }
 
 func handleEndSignal(sequenceNumber int) {
