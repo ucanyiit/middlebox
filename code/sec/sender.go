@@ -1,6 +1,7 @@
 package main
 
 import (
+	"bufio"
 	"fmt"
 	"math/rand"
 	"net"
@@ -117,13 +118,27 @@ func udpSender(
 	}
 }
 
-func readFileToString(filename string) (string, error) {
-	data, err := os.ReadFile(filename)
+func readFileLines(filename string) ([]string, error) {
+	file, err := os.Open(filename)
 	if err != nil {
-		return "", err
+		return nil, err
+	}
+	defer file.Close()
+
+	var lines []string
+	scanner := bufio.NewScanner(file)
+	for scanner.Scan() {
+		line := scanner.Text()
+		if line != "" { // Skip empty lines
+			lines = append(lines, line)
+		}
 	}
 
-	return string(data), nil
+	if err := scanner.Err(); err != nil {
+		return nil, err
+	}
+
+	return lines, nil
 }
 
 var COVERT_CHANNEL_GENERATOR_MAP = map[string]func(message string) ([][]byte, error){
@@ -138,12 +153,26 @@ func main() {
 	filename := args[2] // covert channel data file
 	waitBetween, _ := strconv.Atoi(args[3])
 
-	message, err := readFileToString(filename)
+	lines, err := readFileLines(filename)
 
 	if err != nil {
 		fmt.Println("Error reading file:", err)
 		return
 	}
 
-	udpSender(COVERT_CHANNEL_GENERATOR_MAP[typeArg], message, waitBetween)
+	fmt.Printf("Read %d lines from file %s\n", len(lines), filename)
+
+	// Send each line as a separate message with 2 seconds between them
+	for i, line := range lines {
+		fmt.Printf("\nSending line %d: %s\n", i+1, line)
+		udpSender(COVERT_CHANNEL_GENERATOR_MAP[typeArg], line, waitBetween)
+
+		// Wait 2 seconds before sending the next line (except for the last line)
+		if i < len(lines)-1 {
+			fmt.Println("Waiting 2 seconds before sending next line...")
+			time.Sleep(2 * time.Second)
+		}
+	}
+
+	fmt.Println("All lines sent successfully!")
 }
