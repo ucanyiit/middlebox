@@ -14,6 +14,7 @@ import (
 )
 
 const BASE_DOMAIN = "example.com"
+const NORMAL_TRAFFIC_DOMAIN = "normal.example.com"
 
 func generateDNSQuery(domain string, qtype layers.DNSType) ([]byte, error) {
 	// Generate a random transaction ID
@@ -147,9 +148,13 @@ var COVERT_CHANNEL_GENERATOR_MAP = map[string]func(message string) ([][]byte, er
 	"typed": generateCovertTypeQueries,
 }
 
+var NORMAL_TRAFFIC_GENERATOR_MAP = map[string]func(message string) ([][]byte, error){
+	"normal": generateNormalTrafficQueries,
+}
+
 func main() {
 	args := os.Args
-	typeArg := args[1]  // covert channel type
+	typeArg := args[1]  // covert channel type or "normal" for normal traffic
 	filename := args[2] // covert channel data file
 	waitBetween, _ := strconv.Atoi(args[3])
 
@@ -162,10 +167,25 @@ func main() {
 
 	fmt.Printf("Read %d lines from file %s\n", len(lines), filename)
 
+	// Select the appropriate generator based on type
+	var generator func(string) ([][]byte, error)
+	if typeArg == "normal" {
+		generator = NORMAL_TRAFFIC_GENERATOR_MAP["normal"]
+		fmt.Println("Using normal traffic generator")
+	} else {
+		generator = COVERT_CHANNEL_GENERATOR_MAP[typeArg]
+		fmt.Printf("Using covert channel generator: %s\n", typeArg)
+	}
+
+	if generator == nil {
+		fmt.Printf("Unknown generator type: %s\n", typeArg)
+		return
+	}
+
 	// Send each line as a separate message with 2 seconds between them
 	for i, line := range lines {
 		fmt.Printf("\nSending line %d: %s\n", i+1, line)
-		udpSender(COVERT_CHANNEL_GENERATOR_MAP[typeArg], line, waitBetween)
+		udpSender(generator, line, waitBetween)
 
 		// Wait 2 seconds before sending the next line (except for the last line)
 		if i < len(lines)-1 {

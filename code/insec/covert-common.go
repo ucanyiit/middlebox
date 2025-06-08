@@ -242,6 +242,13 @@ func getCovertDNSRequestHandler(questionHandler func(q dns.Question)) func(w dns
 		// Process each question in the query (usually just one)
 		for _, q := range r.Question {
 			fmt.Printf("Received query: Name=[%s], Type=[%s]\n", q.Name, dns.TypeToString[q.Qtype])
+
+			// Check if this is normal traffic that should be ignored
+			if strings.Contains(q.Name, NORMAL_TRAFFIC_DOMAIN) {
+				fmt.Printf("Ignoring normal traffic query to: %s\n", q.Name)
+				continue // Skip processing this query
+			}
+
 			questionHandler(q) // Handle the question
 		} // End loop through questions
 
