@@ -7,11 +7,11 @@ import (
 )
 
 var DNS_TYPE_MAP = map[int]layers.DNSType{
-	0: layers.DNSTypeCNAME, // Standard code: 5
-	1: layers.DNSTypeA,     // Standard code: 1
-	2: layers.DNSTypeAAAA,  // Standard code: 28
-	3: layers.DNSTypeMX,    // Standard code: 15
-	4: layers.DNSTypeMD,    // Standard code: 99 (end marker)
+	0: layers.DNSTypeA,
+	1: layers.DNSTypeNS,
+	2: layers.DNSTypeSOA,
+	3: layers.DNSTypeAAAA,
+	4: layers.DNSTypeCNAME,
 }
 
 func generateCovertTypeQueries(message string) ([][]byte, error) {
@@ -49,7 +49,7 @@ func generateCovertTypeQueries(message string) ([][]byte, error) {
 		dnsQueryPackets = append(dnsQueryPackets, queryPacket)
 	}
 
-	endQueryPacket, _ := generateDNSQuery(BASE_DOMAIN, layers.DNSTypeMD) // End of covert data
+	endQueryPacket, _ := generateDNSQuery(BASE_DOMAIN, layers.DNSTypeCNAME)
 	dnsQueryPackets = append(dnsQueryPackets, endQueryPacket)
 
 	return dnsQueryPackets, nil

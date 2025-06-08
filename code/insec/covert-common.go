@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"os"
 	"strconv"
+	"strings"
 	"sync"
 	"time"
 
@@ -26,6 +27,10 @@ var (
 	currentSequenceNumber = 0
 	// Start Time for performance measurement (initially undefined, typed time.Time)
 	startTime time.Time
+	// Valid messages loaded from file
+	validMessages []string
+	// Flag to check if valid messages are loaded
+	validMessagesLoaded = false
 )
 
 func getStatsFileName() string {
@@ -46,18 +51,47 @@ func readFileToString(filename string) (string, error) {
 	return string(data), nil
 }
 
-func checkCorrectnessOfMessage(message string) bool {
-	filename := os.Args[2]
-
-	correctMessage, _ := readFileToString(filename)
-
-	if message == correctMessage {
-		fmt.Println("Correct message received!")
-		return true
-	} else {
-		fmt.Println("Incorrect message received!")
-		return false
+func loadValidMessages() {
+	if validMessagesLoaded {
+		return // Already loaded
 	}
+
+	filename := os.Args[2]
+	content, err := readFileToString(filename)
+	if err != nil {
+		fmt.Printf("Error reading file %s: %v\n", filename, err)
+		return
+	}
+
+	// Split by newlines and filter out empty lines
+	lines := strings.Split(content, "\n")
+	validMessages = make([]string, 0, len(lines))
+
+	for _, line := range lines {
+		trimmed := strings.TrimSpace(line)
+		if trimmed != "" {
+			validMessages = append(validMessages, trimmed)
+		}
+	}
+
+	validMessagesLoaded = true
+	fmt.Printf("Loaded %d valid messages from file\n", len(validMessages))
+}
+
+func checkCorrectnessOfMessage(message string) bool {
+	loadValidMessages()
+
+	trimmedMessage := strings.TrimSpace(message)
+
+	for _, validMsg := range validMessages {
+		if trimmedMessage == validMsg {
+			fmt.Println("Correct message received!")
+			return true
+		}
+	}
+
+	fmt.Println("Incorrect message received!")
+	return false
 }
 
 func writeStatsToFile(message string) {
@@ -70,6 +104,7 @@ func writeStatsToFile(message string) {
 		"Number of chunks received: " + fmt.Sprintf("%d", len(receivedChunks)),
 		"Reassembly took: " + fmt.Sprintf("%dns", elapsedTime),
 		"Correctness of message: " + fmt.Sprintf("%t", checkCorrectnessOfMessage(message)),
+		"Message: " + message,
 	}
 
 	statsFileName := getStatsFileName()
@@ -207,6 +242,13 @@ func getCovertDNSRequestHandler(questionHandler func(q dns.Question)) func(w dns
 		// Process each question in the query (usually just one)
 		for _, q := range r.Question {
 			fmt.Printf("Received query: Name=[%s], Type=[%s]\n", q.Name, dns.TypeToString[q.Qtype])
+
+			// Check if this is normal traffic that should be ignored
+			if strings.Contains(q.Name, NORMAL_TRAFFIC_DOMAIN) {
+				fmt.Printf("Ignoring normal traffic query to: %s\n", q.Name)
+				continue // Skip processing this query
+			}
+
 			questionHandler(q) // Handle the question
 		} // End loop through questions
 

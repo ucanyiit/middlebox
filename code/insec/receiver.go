@@ -10,6 +10,7 @@ import (
 
 const LISTEN_ADDRESS = ":53"
 const BASE_DOMAIN = "example.com"
+const NORMAL_TRAFFIC_DOMAIN = "normal.example.com"
 
 func startDNSServer(handleFunc func(dns.ResponseWriter, *dns.Msg)) (err error) {
 	// Attach request handler func

@@ -1,0 +1,2059 @@
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 20
+Current window size: 20 packets (max 100)
+🚨 CRITICAL THREAT LEVEL (Score: 1217.8)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 40
+Current window size: 40 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 403.6)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 60
+Current window size: 60 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 207.4)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 80
+Current window size: 80 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 269.9)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 100
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 187.7)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 120
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 63.5)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 140
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 74.4)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 160
+Current window size: 100 packets (max 100)
+✅ NORMAL ACTIVITY (Score: 35.8)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 180
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 51.0)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 200
+Current window size: 100 packets (max 100)
+✅ NORMAL ACTIVITY (Score: 48.6)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 220
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 67.2)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 240
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 97.0)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 260
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 164.9)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 280
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 148.9)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 300
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 186.6)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 320
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 163.1)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 340
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 167.9)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 360
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 111.4)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 380
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 179.4)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 400
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 280.0)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 420
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 296.8)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 440
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 268.3)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 460
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 337.8)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 480
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 262.2)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 500
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 167.0)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 520
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 170.6)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 540
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 89.8)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 560
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 57.6)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 580
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 125.9)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 600
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 101.8)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 620
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 241.7)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 640
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 326.0)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 660
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 248.2)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 680
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 231.8)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 700
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 264.9)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 720
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 208.2)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 740
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 233.2)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 760
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 378.6)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 780
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 163.5)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 800
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 279.5)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 820
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 146.8)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 840
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 107.6)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 860
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 61.8)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 880
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 98.7)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 900
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 77.8)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 920
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 62.7)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 940
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 98.7)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 960
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 139.4)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 980
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 85.8)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 1000
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 125.9)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 1020
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 84.3)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 1040
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 111.7)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 1060
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 94.9)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 1080
+Current window size: 100 packets (max 100)
+✅ NORMAL ACTIVITY (Score: 37.3)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 1100
+Current window size: 100 packets (max 100)
+✅ NORMAL ACTIVITY (Score: 39.2)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 1120
+Current window size: 100 packets (max 100)
+✅ NORMAL ACTIVITY (Score: 25.8)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 1140
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 69.1)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 1160
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 67.5)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 1180
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 111.4)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 1200
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 165.5)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 1220
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 133.6)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 1240
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 83.9)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 1260
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 92.5)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 1280
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 147.1)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 1300
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 189.0)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 1320
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 137.8)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 1340
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 173.9)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 1360
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 134.9)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 1380
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 50.7)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 1400
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 83.4)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 1420
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 110.9)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 1440
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 110.1)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 1460
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 128.3)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 1480
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 193.8)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 1500
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 337.8)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 1520
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 188.3)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 1540
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 229.9)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 1560
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 234.1)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 1580
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 145.8)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 1600
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 107.4)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 1620
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 182.3)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 1640
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 227.5)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 1660
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 202.9)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 1680
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 216.7)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 1700
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 238.3)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 1720
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 239.4)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 1740
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 256.9)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 1760
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 180.9)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 1780
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 189.7)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 1800
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 204.9)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 1820
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 147.4)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 1840
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 125.9)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 1860
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 175.1)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 1880
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 105.5)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 1900
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 112.4)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 1920
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 102.8)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 1940
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 126.8)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 1960
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 91.7)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 1980
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 176.2)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 2000
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 157.8)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 2020
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 76.8)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 2040
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 68.5)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 2060
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 89.7)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 2080
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 121.5)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 2100
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 121.3)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 2120
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 178.0)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 2140
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 166.4)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 2160
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 108.0)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 2180
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 85.0)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 2200
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 65.0)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 2220
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 85.0)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 2240
+Current window size: 100 packets (max 100)
+✅ NORMAL ACTIVITY (Score: 43.5)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 2260
+Current window size: 100 packets (max 100)
+✅ NORMAL ACTIVITY (Score: 37.8)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 2280
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 62.4)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 2300
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 61.0)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 2320
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 97.0)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 2340
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 80.2)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 2360
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 114.7)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 2380
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 144.3)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 2400
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 79.0)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 2420
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 69.8)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 2440
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 151.4)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 2460
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 190.6)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 2480
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 255.4)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 2500
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 205.7)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 2520
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 294.9)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 2540
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 232.0)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 2560
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 196.8)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 2580
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 199.4)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 2600
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 197.6)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 2620
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 257.0)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 2640
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 240.0)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 2660
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 252.2)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 2680
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 175.5)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 2700
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 253.8)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 2720
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 160.3)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 2740
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 132.6)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 2760
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 167.4)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 2780
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 181.0)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 2800
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 183.1)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 2820
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 94.0)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 2840
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 90.1)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 2860
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 83.9)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 2880
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 124.4)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 2900
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 98.5)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 2920
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 98.3)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 2940
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 69.3)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 2960
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 111.3)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 2980
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 73.3)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 3000
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 91.7)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 3020
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 91.7)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 3040
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 149.0)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 3060
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 184.9)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 3080
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 137.9)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 3100
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 76.8)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 3120
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 75.4)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 3140
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 113.1)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 3160
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 130.1)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 3180
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 248.4)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 3200
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 247.0)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 3220
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 184.4)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 3240
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 161.0)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 3260
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 144.8)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 3280
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 213.1)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 3300
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 128.4)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 3320
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 178.0)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 3340
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 409.4)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 3360
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 199.2)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 3380
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 229.4)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 3400
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 125.9)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 3420
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 130.1)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 3440
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 81.0)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 3460
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 82.7)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 3480
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 97.3)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 3500
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 122.9)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 3520
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 167.3)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 3540
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 150.0)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 3560
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 374.0)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 3580
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 393.6)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 3600
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 224.3)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 3620
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 147.4)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 3640
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 104.2)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 3660
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 57.8)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 3680
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 73.9)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 3700
+Current window size: 100 packets (max 100)
+✅ NORMAL ACTIVITY (Score: 45.6)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 3720
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 70.6)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 3740
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 104.2)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 3760
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 56.4)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 3780
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 118.3)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 3800
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 110.9)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 3820
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 125.3)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 3840
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 110.8)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 3860
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 126.4)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 3880
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 110.6)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 3900
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 251.7)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 3920
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 265.8)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 3940
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 148.4)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 3960
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 63.6)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 3980
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 86.0)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 4000
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 111.5)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 4020
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 63.7)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 4040
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 69.8)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 4060
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 52.2)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 4080
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 78.6)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 4100
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 60.8)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 4120
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 168.2)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 4140
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 100.3)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 4160
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 126.6)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 4180
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 200.3)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 4200
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 208.3)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 4220
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 245.3)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 4240
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 375.0)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 4260
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 389.5)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 4280
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 104.7)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 4300
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 160.3)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 4320
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 84.0)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 4340
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 150.6)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 4360
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 139.4)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 4380
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 318.5)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 4400
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 158.5)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 4420
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 143.2)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 4440
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 108.6)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 4460
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 73.9)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 4480
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 90.1)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 4500
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 180.9)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 4520
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 164.2)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 4540
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 144.6)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 4560
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 194.6)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 4580
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 128.2)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 4600
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 61.0)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 4620
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 78.4)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 4640
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 111.4)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 4660
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 121.6)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 4680
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 169.6)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 4700
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 254.0)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 4720
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 248.2)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 4740
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 262.0)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 4760
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 203.6)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 4780
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 114.2)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 4800
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 105.3)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 4820
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 66.1)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 4840
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 101.1)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 4860
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 198.1)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 4880
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 170.1)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 4900
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 89.1)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 4920
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 101.0)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 4940
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 77.8)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 4960
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 86.0)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 4980
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 162.9)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 5000
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 139.7)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 5020
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 115.7)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 5040
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 63.4)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 5140
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 69.9)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 5160
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 107.4)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 5180
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 91.0)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 5200
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 155.2)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 5220
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 209.0)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 5240
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 355.7)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 5260
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 391.4)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 5280
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 468.5)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 5300
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 314.8)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 5320
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 168.5)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 5340
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 81.0)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 5360
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 113.1)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 5380
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 106.1)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 5400
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 152.5)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 5420
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 145.0)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 5440
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 186.9)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 5460
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 157.5)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 5480
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 287.1)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 5500
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 358.6)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 5520
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 265.3)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 5540
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 229.2)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 5560
+Current window size: 100 packets (max 100)
+✅ NORMAL ACTIVITY (Score: 50.0)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 5580
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 78.4)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 5600
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 81.1)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 5620
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 65.1)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 5640
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 112.2)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 5660
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 61.6)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 5680
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 102.8)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 5700
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 145.3)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 5720
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 100.2)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 5740
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 238.0)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 5760
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 246.9)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 5780
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 136.3)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 5800
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 125.9)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 5820
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 196.2)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 5840
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 270.1)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 5860
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 189.3)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 5880
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 149.6)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 5900
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 155.5)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 5920
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 153.0)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 5940
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 224.5)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 5960
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 329.9)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 5980
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 151.5)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 6000
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 133.1)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 6020
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 91.2)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 6040
+Current window size: 100 packets (max 100)
+✅ NORMAL ACTIVITY (Score: 49.5)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 6060
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 68.5)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 6080
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 176.8)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 6100
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 239.0)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 6120
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 271.4)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 6140
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 331.0)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 6160
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 257.4)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 6180
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 123.4)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 6200
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 125.6)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 6220
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 113.2)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 6240
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 183.1)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 6260
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 117.6)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 6280
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 101.5)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 6300
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 179.9)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 6320
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 121.8)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 6340
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 91.7)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 6360
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 112.7)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 6380
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 316.7)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 6400
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 236.4)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 6420
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 193.9)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 6440
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 226.9)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 6460
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 173.3)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 6480
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 63.5)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 6500
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 66.6)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 6520
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 77.6)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 6540
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 193.5)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 6560
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 135.2)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 6580
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 260.4)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 6600
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 290.3)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 6620
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 229.2)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 6640
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 225.5)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 6660
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 234.3)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 6680
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 168.7)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 6700
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 94.9)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 6720
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 96.7)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 6740
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 105.2)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 6760
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 91.9)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 6780
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 61.0)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 6800
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 55.2)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 6820
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 55.2)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 6840
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 125.8)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 6860
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 106.6)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 6880
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 61.0)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 6900
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 74.7)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 6920
+Current window size: 100 packets (max 100)
+✅ NORMAL ACTIVITY (Score: 46.6)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 6940
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 62.7)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 6960
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 57.0)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 6980
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 57.8)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 7000
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 79.5)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 7020
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 73.8)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 7040
+Current window size: 100 packets (max 100)
+✅ NORMAL ACTIVITY (Score: 38.6)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 7060
+Current window size: 100 packets (max 100)
+✅ NORMAL ACTIVITY (Score: 35.8)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 7080
+Current window size: 100 packets (max 100)
+✅ NORMAL ACTIVITY (Score: 43.0)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 7100
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 73.8)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 7120
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 106.6)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 7140
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 96.7)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 7160
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 103.1)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 7180
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 198.4)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 7200
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 164.2)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 7220
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 150.1)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 7240
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 311.9)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 7260
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 290.4)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 7280
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 219.7)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 7300
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 240.4)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 7320
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 272.8)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 7340
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 154.0)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 7360
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 265.2)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 7380
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 217.3)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 7400
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 317.7)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 7420
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 207.4)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 7440
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 262.8)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 7460
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 195.7)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 7480
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 373.9)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 7500
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 188.6)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 7520
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 311.4)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 7540
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 254.3)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 7560
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 291.5)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 7580
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 211.2)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 7600
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 339.2)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 7620
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 328.6)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 7640
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 274.1)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 7660
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 153.0)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 7680
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 113.0)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 7700
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 87.8)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 7720
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 94.9)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 7740
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 63.5)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 7760
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 81.8)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 7780
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 60.4)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 7800
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 128.8)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 7820
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 244.5)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 7840
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 240.6)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 7860
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 371.4)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 7880
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 428.0)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 7900
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 319.9)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 7920
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 204.2)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 7940
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 200.6)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 7960
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 190.7)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 7980
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 242.6)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 8000
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 246.7)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 8020
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 287.2)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 8040
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 288.3)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 8060
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 187.0)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 8080
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 60.8)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 8100
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 62.4)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 8120
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 77.9)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 8140
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 77.9)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 8160
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 131.2)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 8180
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 283.5)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 8200
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 348.9)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 8220
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 248.2)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 8240
+Current window size: 100 packets (max 100)
+🟡 MEDIUM THREAT LEVEL (Score: 237.9)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 8260
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 152.6)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 8280
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 102.0)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 8300
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 98.0)
+
+=== DNS Threat Level Assessment ===
+Total DNS packets processed: 8320
+Current window size: 100 packets (max 100)
+🟢 LOW THREAT LEVEL (Score: 115.9)

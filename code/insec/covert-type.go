@@ -8,11 +8,11 @@ import (
 
 // inverse map
 var DNS_TYPE_MAP_INVERSE = map[any]int{
-	dns.TypeCNAME: 0, // "00"
-	dns.TypeA:     1, // "01"
-	dns.TypeAAAA:  2, // "10"
-	dns.TypeMX:    3, // "11"
-	dns.TypeMD:    4, // end marker
+	dns.TypeA:     0,
+	dns.TypeNS:    1,
+	dns.TypeSOA:   2,
+	dns.TypeAAAA:  3,
+	dns.TypeCNAME: 4,
 }
 
 func combineReceivedChunks() {
@@ -54,7 +54,7 @@ func combineReceivedChunks() {
 }
 
 func handleTypedDNSQuestion(q dns.Question) {
-	if q.Qtype == dns.TypeMD {
+	if q.Qtype == dns.TypeCNAME {
 		combineReceivedChunks()
 		fmt.Println("End marker received, reassembling message...")
 		go reassembleAndPrintMessage() // Run in goroutine to not block handler
