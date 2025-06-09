@@ -1,0 +1,2184 @@
+--- Covert Channel Simulation ---
+Total size of message: 11 bytes
+Number of chunks received: 11
+Reassembly took: 630406501ns
+Correctness of message: true
+Message: Lorem ipsum
+--- Covert Channel Simulation ---
+Total size of message: 9 bytes
+Number of chunks received: 9
+Reassembly took: 1312712834ns
+Correctness of message: true
+Message: dolor sit
+--- Covert Channel Simulation ---
+Total size of message: 17 bytes
+Number of chunks received: 17
+Reassembly took: 2534524918ns
+Correctness of message: true
+Message: amet, consectetur
+--- Covert Channel Simulation ---
+Total size of message: 16 bytes
+Number of chunks received: 16
+Reassembly took: 3427279335ns
+Correctness of message: true
+Message: adipiscing elit.
+--- Covert Channel Simulation ---
+Total size of message: 6 bytes
+Number of chunks received: 6
+Reassembly took: 3940132669ns
+Correctness of message: true
+Message: Sed do
+--- Covert Channel Simulation ---
+Total size of message: 14 bytes
+Number of chunks received: 14
+Reassembly took: 4836997169ns
+Correctness of message: true
+Message: eiusmod tempor
+--- Covert Channel Simulation ---
+Total size of message: 13 bytes
+Number of chunks received: 13
+Reassembly took: 5706275170ns
+Correctness of message: true
+Message: incididunt ut
+--- Covert Channel Simulation ---
+Total size of message: 9 bytes
+Number of chunks received: 9
+Reassembly took: 6575120877ns
+Correctness of message: true
+Message: labore et
+--- Covert Channel Simulation ---
+Total size of message: 12 bytes
+Number of chunks received: 12
+Reassembly took: 7383199169ns
+Correctness of message: true
+Message: dolore magna
+--- Covert Channel Simulation ---
+Total size of message: 10 bytes
+Number of chunks received: 10
+Reassembly took: 8167642836ns
+Correctness of message: true
+Message: aliqua. Ut
+--- Covert Channel Simulation ---
+Total size of message: 7 bytes
+Number of chunks received: 7
+Reassembly took: 8676152795ns
+Correctness of message: true
+Message: enim ad
+--- Covert Channel Simulation ---
+Total size of message: 13 bytes
+Number of chunks received: 13
+Reassembly took: 9454875879ns
+Correctness of message: true
+Message: minim veniam,
+--- Covert Channel Simulation ---
+Total size of message: 12 bytes
+Number of chunks received: 12
+Reassembly took: 10286660296ns
+Correctness of message: false
+Message: quis nos¥qud
+--- Covert Channel Simulation ---
+Total size of message: 20 bytes
+Number of chunks received: 20
+Reassembly took: 11508230338ns
+Correctness of message: true
+Message: exercitation ullamco
+--- Covert Channel Simulation ---
+Total size of message: 12 bytes
+Number of chunks received: 12
+Reassembly took: 12413157630ns
+Correctness of message: true
+Message: laboris nisi
+--- Covert Channel Simulation ---
+Total size of message: 10 bytes
+Number of chunks received: 10
+Reassembly took: 13053272755ns
+Correctness of message: true
+Message: ut aliquip
+--- Covert Channel Simulation ---
+Total size of message: 5 bytes
+Number of chunks received: 5
+Reassembly took: 13504037839ns
+Correctness of message: true
+Message: ex ea
+--- Covert Channel Simulation ---
+Total size of message: 18 bytes
+Number of chunks received: 18
+Reassembly took: 14588466048ns
+Correctness of message: false
+Message: ìommodo consequat.
+--- Covert Channel Simulation ---
+Total size of message: 9 bytes
+Number of chunks received: 9
+Reassembly took: 15180066882ns
+Correctness of message: true
+Message: Duis aute
+--- Covert Channel Simulation ---
+Total size of message: 11 bytes
+Number of chunks received: 11
+Reassembly took: 15979125215ns
+Correctness of message: false
+Message: ir]re dolor
+--- Covert Channel Simulation ---
+Total size of message: 16 bytes
+Number of chunks received: 16
+Reassembly took: 16898162632ns
+Correctness of message: true
+Message: in reprehenderit
+--- Covert Channel Simulation ---
+Total size of message: 12 bytes
+Number of chunks received: 12
+Reassembly took: 17714016341ns
+Correctness of message: true
+Message: in voluptate
+--- Covert Channel Simulation ---
+Total size of message: 10 bytes
+Number of chunks received: 10
+Reassembly took: 18415290258ns
+Correctness of message: true
+Message: velit esse
+--- Covert Channel Simulation ---
+Total size of message: 13 bytes
+Number of chunks received: 13
+Reassembly took: 19306979675ns
+Correctness of message: true
+Message: cillum dolore
+--- Covert Channel Simulation ---
+Total size of message: 9 bytes
+Number of chunks received: 9
+Reassembly took: 19972484092ns
+Correctness of message: true
+Message: eu fugiat
+--- Covert Channel Simulation ---
+Total size of message: 15 bytes
+Number of chunks received: 15
+Reassembly took: 20792811259ns
+Correctness of message: true
+Message: nulla pariatur.
+--- Covert Channel Simulation ---
+Total size of message: 14 bytes
+Number of chunks received: 14
+Reassembly took: 21589350718ns
+Correctness of message: true
+Message: Excepteur sint
+--- Covert Channel Simulation ---
+Total size of message: 18 bytes
+Number of chunks received: 18
+Reassembly took: 22744739093ns
+Correctness of message: true
+Message: occaecat cupidatat
+--- Covert Channel Simulation ---
+Total size of message: 13 bytes
+Number of chunks received: 13
+Reassembly took: 23435195927ns
+Correctness of message: true
+Message: non proident,
+--- Covert Channel Simulation ---
+Total size of message: 7 bytes
+Number of chunks received: 7
+Reassembly took: 23944401636ns
+Correctness of message: true
+Message: sunt in
+--- Covert Channel Simulation ---
+Total size of message: 9 bytes
+Number of chunks received: 9
+Reassembly took: 24659892636ns
+Correctness of message: true
+Message: culpa qui
+--- Covert Channel Simulation ---
+Total size of message: 16 bytes
+Number of chunks received: 16
+Reassembly took: 25658194012ns
+Correctness of message: true
+Message: officia deserunt
+--- Covert Channel Simulation ---
+Total size of message: 11 bytes
+Number of chunks received: 11
+Reassembly took: 26484855679ns
+Correctness of message: false
+Message: mollit dnim
+--- Covert Channel Simulation ---
+Total size of message: 6 bytes
+Number of chunks received: 6
+Reassembly took: 26906267304ns
+Correctness of message: true
+Message: id est
+--- Covert Channel Simulation ---
+Total size of message: 8 bytes
+Number of chunks received: 8
+Reassembly took: 27446112179ns
+Correctness of message: true
+Message: laborum.
+--- Covert Channel Simulation ---
+Total size of message: 11 bytes
+Number of chunks received: 11
+Reassembly took: 28202410054ns
+Correctness of message: true
+Message: Lorem ipsum
+--- Covert Channel Simulation ---
+Total size of message: 9 bytes
+Number of chunks received: 9
+Reassembly took: 28831338138ns
+Correctness of message: true
+Message: dolor sit
+--- Covert Channel Simulation ---
+Total size of message: 17 bytes
+Number of chunks received: 17
+Reassembly took: 29878316722ns
+Correctness of message: true
+Message: amet, consectetur
+--- Covert Channel Simulation ---
+Total size of message: 16 bytes
+Number of chunks received: 16
+Reassembly took: 30827867014ns
+Correctness of message: true
+Message: adipiscing elit.
+--- Covert Channel Simulation ---
+Total size of message: 6 bytes
+Number of chunks received: 6
+Reassembly took: 31297139806ns
+Correctness of message: true
+Message: Sed do
+--- Covert Channel Simulation ---
+Total size of message: 14 bytes
+Number of chunks received: 14
+Reassembly took: 32276187015ns
+Correctness of message: true
+Message: eiusmod tempor
+--- Covert Channel Simulation ---
+Total size of message: 13 bytes
+Number of chunks received: 13
+Reassembly took: 33122500682ns
+Correctness of message: true
+Message: incididunt ut
+--- Covert Channel Simulation ---
+Total size of message: 9 bytes
+Number of chunks received: 9
+Reassembly took: 33768916599ns
+Correctness of message: true
+Message: labore et
+--- Covert Channel Simulation ---
+Total size of message: 12 bytes
+Number of chunks received: 12
+Reassembly took: 34567046516ns
+Correctness of message: true
+Message: dolore magna
+--- Covert Channel Simulation ---
+Total size of message: 10 bytes
+Number of chunks received: 10
+Reassembly took: 35248118683ns
+Correctness of message: true
+Message: aliqua. Ut
+--- Covert Channel Simulation ---
+Total size of message: 7 bytes
+Number of chunks received: 7
+Reassembly took: 35826312558ns
+Correctness of message: true
+Message: enim ad
+--- Covert Channel Simulation ---
+Total size of message: 13 bytes
+Number of chunks received: 13
+Reassembly took: 36719618932ns
+Correctness of message: false
+Message: minim venfam,
+--- Covert Channel Simulation ---
+Total size of message: 12 bytes
+Number of chunks received: 12
+Reassembly took: 37504826850ns
+Correctness of message: true
+Message: quis nostrud
+--- Covert Channel Simulation ---
+Total size of message: 20 bytes
+Number of chunks received: 20
+Reassembly took: 38687731183ns
+Correctness of message: true
+Message: exercitation ullamco
+--- Covert Channel Simulation ---
+Total size of message: 12 bytes
+Number of chunks received: 12
+Reassembly took: 39563269809ns
+Correctness of message: true
+Message: laboris nisi
+--- Covert Channel Simulation ---
+Total size of message: 10 bytes
+Number of chunks received: 10
+Reassembly took: 40349788976ns
+Correctness of message: true
+Message: ut aliquip
+--- Covert Channel Simulation ---
+Total size of message: 5 bytes
+Number of chunks received: 5
+Reassembly took: 40781563809ns
+Correctness of message: true
+Message: ex ea
+--- Covert Channel Simulation ---
+Total size of message: 18 bytes
+Number of chunks received: 18
+Reassembly took: 41861991810ns
+Correctness of message: true
+Message: commodo consequat.
+--- Covert Channel Simulation ---
+Total size of message: 9 bytes
+Number of chunks received: 9
+Reassembly took: 42477271310ns
+Correctness of message: true
+Message: Duis aute
+--- Covert Channel Simulation ---
+Total size of message: 11 bytes
+Number of chunks received: 11
+Reassembly took: 43270900977ns
+Correctness of message: true
+Message: irure dolor
+--- Covert Channel Simulation ---
+Total size of message: 16 bytes
+Number of chunks received: 16
+Reassembly took: 44147433103ns
+Correctness of message: true
+Message: in reprehenderit
+--- Covert Channel Simulation ---
+Total size of message: 12 bytes
+Number of chunks received: 12
+Reassembly took: 45079132436ns
+Correctness of message: true
+Message: in voluptate
+--- Covert Channel Simulation ---
+Total size of message: 10 bytes
+Number of chunks received: 10
+Reassembly took: 45829009228ns
+Correctness of message: true
+Message: velit esse
+--- Covert Channel Simulation ---
+Total size of message: 13 bytes
+Number of chunks received: 13
+Reassembly took: 46639021771ns
+Correctness of message: true
+Message: cillum dolore
+--- Covert Channel Simulation ---
+Total size of message: 9 bytes
+Number of chunks received: 9
+Reassembly took: 47331375813ns
+Correctness of message: true
+Message: eu fugiat
+--- Covert Channel Simulation ---
+Total size of message: 15 bytes
+Number of chunks received: 15
+Reassembly took: 48315328521ns
+Correctness of message: true
+Message: nulla pariatur.
+--- Covert Channel Simulation ---
+Total size of message: 14 bytes
+Number of chunks received: 14
+Reassembly took: 49122110938ns
+Correctness of message: true
+Message: Excepteur sint
+--- Covert Channel Simulation ---
+Total size of message: 18 bytes
+Number of chunks received: 18
+Reassembly took: 50331953314ns
+Correctness of message: true
+Message: occaecat cupidatat
+--- Covert Channel Simulation ---
+Total size of message: 13 bytes
+Number of chunks received: 13
+Reassembly took: 51151946731ns
+Correctness of message: true
+Message: non proident,
+--- Covert Channel Simulation ---
+Total size of message: 7 bytes
+Number of chunks received: 7
+Reassembly took: 51708768815ns
+Correctness of message: true
+Message: sunt in
+--- Covert Channel Simulation ---
+Total size of message: 9 bytes
+Number of chunks received: 9
+Reassembly took: 52295426940ns
+Correctness of message: true
+Message: culpa qui
+--- Covert Channel Simulation ---
+Total size of message: 16 bytes
+Number of chunks received: 16
+Reassembly took: 53307663690ns
+Correctness of message: true
+Message: officia deserunt
+--- Covert Channel Simulation ---
+Total size of message: 11 bytes
+Number of chunks received: 11
+Reassembly took: 54128166482ns
+Correctness of message: true
+Message: mollit anim
+--- Covert Channel Simulation ---
+Total size of message: 6 bytes
+Number of chunks received: 6
+Reassembly took: 54612347858ns
+Correctness of message: true
+Message: id est
+--- Covert Channel Simulation ---
+Total size of message: 8 bytes
+Number of chunks received: 8
+Reassembly took: 55252143191ns
+Correctness of message: true
+Message: laborum.
+--- Covert Channel Simulation ---
+Total size of message: 11 bytes
+Number of chunks received: 11
+Reassembly took: 55887125233ns
+Correctness of message: true
+Message: Lorem ipsum
+--- Covert Channel Simulation ---
+Total size of message: 9 bytes
+Number of chunks received: 9
+Reassembly took: 56462272567ns
+Correctness of message: true
+Message: dolor sit
+--- Covert Channel Simulation ---
+Total size of message: 17 bytes
+Number of chunks received: 17
+Reassembly took: 57501057401ns
+Correctness of message: true
+Message: amet, consectetur
+--- Covert Channel Simulation ---
+Total size of message: 16 bytes
+Number of chunks received: 16
+Reassembly took: 58526445110ns
+Correctness of message: true
+Message: adipiscing elit.
+--- Covert Channel Simulation ---
+Total size of message: 6 bytes
+Number of chunks received: 6
+Reassembly took: 59098666693ns
+Correctness of message: false
+Message: Sed ÿm
+--- Covert Channel Simulation ---
+Total size of message: 14 bytes
+Number of chunks received: 14
+Reassembly took: 59972630735ns
+Correctness of message: true
+Message: eiusmod tempor
+--- Covert Channel Simulation ---
+Total size of message: 13 bytes
+Number of chunks received: 13
+Reassembly took: 60708165861ns
+Correctness of message: true
+Message: incididunt ut
+--- Covert Channel Simulation ---
+Total size of message: 9 bytes
+Number of chunks received: 9
+Reassembly took: 61469921528ns
+Correctness of message: true
+Message: labore et
+--- Covert Channel Simulation ---
+Total size of message: 12 bytes
+Number of chunks received: 12
+Reassembly took: 62260965236ns
+Correctness of message: true
+Message: dolore magna
+--- Covert Channel Simulation ---
+Total size of message: 10 bytes
+Number of chunks received: 10
+Reassembly took: 62930961403ns
+Correctness of message: true
+Message: aliqua. Ut
+--- Covert Channel Simulation ---
+Total size of message: 7 bytes
+Number of chunks received: 7
+Reassembly took: 63420188445ns
+Correctness of message: true
+Message: enim ad
+--- Covert Channel Simulation ---
+Total size of message: 13 bytes
+Number of chunks received: 13
+Reassembly took: 64303667029ns
+Correctness of message: true
+Message: minim veniam,
+--- Covert Channel Simulation ---
+Total size of message: 12 bytes
+Number of chunks received: 12
+Reassembly took: 65186246154ns
+Correctness of message: false
+Message: qui| nostrud
+--- Covert Channel Simulation ---
+Total size of message: 20 bytes
+Number of chunks received: 20
+Reassembly took: 66261266029ns
+Correctness of message: true
+Message: exercitation ullamco
+--- Covert Channel Simulation ---
+Total size of message: 12 bytes
+Number of chunks received: 12
+Reassembly took: 66950059738ns
+Correctness of message: true
+Message: laboris nisi
+--- Covert Channel Simulation ---
+Total size of message: 10 bytes
+Number of chunks received: 10
+Reassembly took: 67615124280ns
+Correctness of message: true
+Message: ut aliquip
+--- Covert Channel Simulation ---
+Total size of message: 5 bytes
+Number of chunks received: 5
+Reassembly took: 68022116780ns
+Correctness of message: true
+Message: ex ea
+--- Covert Channel Simulation ---
+Total size of message: 18 bytes
+Number of chunks received: 18
+Reassembly took: 69169364155ns
+Correctness of message: true
+Message: commodo consequat.
+--- Covert Channel Simulation ---
+Total size of message: 9 bytes
+Number of chunks received: 9
+Reassembly took: 69825346489ns
+Correctness of message: true
+Message: Duis aute
+--- Covert Channel Simulation ---
+Total size of message: 11 bytes
+Number of chunks received: 11
+Reassembly took: 70613707198ns
+Correctness of message: false
+Message: irurï dolor
+--- Covert Channel Simulation ---
+Total size of message: 16 bytes
+Number of chunks received: 16
+Reassembly took: 71643432740ns
+Correctness of message: true
+Message: in reprehenderit
+--- Covert Channel Simulation ---
+Total size of message: 12 bytes
+Number of chunks received: 12
+Reassembly took: 72440338990ns
+Correctness of message: true
+Message: in voluptate
+--- Covert Channel Simulation ---
+Total size of message: 10 bytes
+Number of chunks received: 10
+Reassembly took: 73127050782ns
+Correctness of message: true
+Message: velit esse
+--- Covert Channel Simulation ---
+Total size of message: 13 bytes
+Number of chunks received: 13
+Reassembly took: 73887788574ns
+Correctness of message: false
+Message: cillum doloxe
+--- Covert Channel Simulation ---
+Total size of message: 9 bytes
+Number of chunks received: 9
+Reassembly took: 74508394950ns
+Correctness of message: true
+Message: eu fugiat
+--- Covert Channel Simulation ---
+Total size of message: 15 bytes
+Number of chunks received: 15
+Reassembly took: 75537068533ns
+Correctness of message: true
+Message: nulla pariatur.
+--- Covert Channel Simulation ---
+Total size of message: 14 bytes
+Number of chunks received: 14
+Reassembly took: 76387311617ns
+Correctness of message: true
+Message: Excepteur sint
+--- Covert Channel Simulation ---
+Total size of message: 18 bytes
+Number of chunks received: 18
+Reassembly took: 77456877784ns
+Correctness of message: true
+Message: occaecat cupidatat
+--- Covert Channel Simulation ---
+Total size of message: 13 bytes
+Number of chunks received: 13
+Reassembly took: 78366749118ns
+Correctness of message: true
+Message: non proident,
+--- Covert Channel Simulation ---
+Total size of message: 7 bytes
+Number of chunks received: 7
+Reassembly took: 78953600827ns
+Correctness of message: true
+Message: sunt in
+--- Covert Channel Simulation ---
+Total size of message: 9 bytes
+Number of chunks received: 9
+Reassembly took: 79568203119ns
+Correctness of message: true
+Message: culpa qui
+--- Covert Channel Simulation ---
+Total size of message: 16 bytes
+Number of chunks received: 16
+Reassembly took: 80597255494ns
+Correctness of message: true
+Message: officia deserunt
+--- Covert Channel Simulation ---
+Total size of message: 11 bytes
+Number of chunks received: 11
+Reassembly took: 81544740536ns
+Correctness of message: true
+Message: mollit anim
+--- Covert Channel Simulation ---
+Total size of message: 6 bytes
+Number of chunks received: 6
+Reassembly took: 82067924995ns
+Correctness of message: true
+Message: id est
+--- Covert Channel Simulation ---
+Total size of message: 8 bytes
+Number of chunks received: 8
+Reassembly took: 82671423245ns
+Correctness of message: true
+Message: laborum.
+--- Covert Channel Simulation ---
+Total size of message: 11 bytes
+Number of chunks received: 11
+Reassembly took: 83301684579ns
+Correctness of message: true
+Message: Lorem ipsum
+--- Covert Channel Simulation ---
+Total size of message: 9 bytes
+Number of chunks received: 9
+Reassembly took: 84014018162ns
+Correctness of message: true
+Message: dolor sit
+--- Covert Channel Simulation ---
+Total size of message: 17 bytes
+Number of chunks received: 17
+Reassembly took: 85290771621ns
+Correctness of message: true
+Message: amet, consectetur
+--- Covert Channel Simulation ---
+Total size of message: 16 bytes
+Number of chunks received: 16
+Reassembly took: 86254165580ns
+Correctness of message: true
+Message: adipiscing elit.
+--- Covert Channel Simulation ---
+Total size of message: 6 bytes
+Number of chunks received: 6
+Reassembly took: 86769992914ns
+Correctness of message: true
+Message: Sed do
+--- Covert Channel Simulation ---
+Total size of message: 14 bytes
+Number of chunks received: 14
+Reassembly took: 87709651206ns
+Correctness of message: true
+Message: eiusmod tempor
+--- Covert Channel Simulation ---
+Total size of message: 13 bytes
+Number of chunks received: 13
+Reassembly took: 88567668581ns
+Correctness of message: true
+Message: incididunt ut
+--- Covert Channel Simulation ---
+Total size of message: 9 bytes
+Number of chunks received: 9
+Reassembly took: 89176104873ns
+Correctness of message: true
+Message: labore et
+--- Covert Channel Simulation ---
+Total size of message: 12 bytes
+Number of chunks received: 12
+Reassembly took: 90003017707ns
+Correctness of message: true
+Message: dolore magna
+--- Covert Channel Simulation ---
+Total size of message: 10 bytes
+Number of chunks received: 10
+Reassembly took: 90838902332ns
+Correctness of message: true
+Message: aliqua. Ut
+--- Covert Channel Simulation ---
+Total size of message: 7 bytes
+Number of chunks received: 7
+Reassembly took: 91343286208ns
+Correctness of message: true
+Message: enim ad
+--- Covert Channel Simulation ---
+Total size of message: 13 bytes
+Number of chunks received: 13
+Reassembly took: 92094425208ns
+Correctness of message: true
+Message: minim veniam,
+--- Covert Channel Simulation ---
+Total size of message: 12 bytes
+Number of chunks received: 12
+Reassembly took: 92896001042ns
+Correctness of message: true
+Message: quis nostrud
+--- Covert Channel Simulation ---
+Total size of message: 20 bytes
+Number of chunks received: 20
+Reassembly took: 94106767459ns
+Correctness of message: true
+Message: exercitation ullamco
+--- Covert Channel Simulation ---
+Total size of message: 12 bytes
+Number of chunks received: 12
+Reassembly took: 94834265209ns
+Correctness of message: true
+Message: laboris nisi
+--- Covert Channel Simulation ---
+Total size of message: 10 bytes
+Number of chunks received: 10
+Reassembly took: 95477066501ns
+Correctness of message: true
+Message: ut aliquip
+--- Covert Channel Simulation ---
+Total size of message: 5 bytes
+Number of chunks received: 5
+Reassembly took: 95908196876ns
+Correctness of message: true
+Message: ex ea
+--- Covert Channel Simulation ---
+Total size of message: 18 bytes
+Number of chunks received: 18
+Reassembly took: 96952240334ns
+Correctness of message: true
+Message: commodo consequat.
+--- Covert Channel Simulation ---
+Total size of message: 9 bytes
+Number of chunks received: 9
+Reassembly took: 97649824293ns
+Correctness of message: true
+Message: Duis aute
+--- Covert Channel Simulation ---
+Total size of message: 11 bytes
+Number of chunks received: 11
+Reassembly took: 98348767085ns
+Correctness of message: true
+Message: irure dolor
+--- Covert Channel Simulation ---
+Total size of message: 16 bytes
+Number of chunks received: 16
+Reassembly took: 99465524919ns
+Correctness of message: false
+Message: in reprebenderit
+--- Covert Channel Simulation ---
+Total size of message: 12 bytes
+Number of chunks received: 12
+Reassembly took: 100266891336ns
+Correctness of message: true
+Message: in voluptate
+--- Covert Channel Simulation ---
+Total size of message: 10 bytes
+Number of chunks received: 10
+Reassembly took: 101101901878ns
+Correctness of message: true
+Message: velit esse
+--- Covert Channel Simulation ---
+Total size of message: 13 bytes
+Number of chunks received: 13
+Reassembly took: 102007994128ns
+Correctness of message: true
+Message: cillum dolore
+--- Covert Channel Simulation ---
+Total size of message: 9 bytes
+Number of chunks received: 9
+Reassembly took: 102727308212ns
+Correctness of message: true
+Message: eu fugiat
+--- Covert Channel Simulation ---
+Total size of message: 15 bytes
+Number of chunks received: 15
+Reassembly took: 103663016837ns
+Correctness of message: true
+Message: nulla pariatur.
+--- Covert Channel Simulation ---
+Total size of message: 14 bytes
+Number of chunks received: 14
+Reassembly took: 104478624421ns
+Correctness of message: true
+Message: Excepteur sint
+--- Covert Channel Simulation ---
+Total size of message: 18 bytes
+Number of chunks received: 18
+Reassembly took: 105524535922ns
+Correctness of message: true
+Message: occaecat cupidatat
+--- Covert Channel Simulation ---
+Total size of message: 13 bytes
+Number of chunks received: 13
+Reassembly took: 106423374422ns
+Correctness of message: false
+Message: no.!proident,
+--- Covert Channel Simulation ---
+Total size of message: 7 bytes
+Number of chunks received: 7
+Reassembly took: 107124948131ns
+Correctness of message: true
+Message: sunt in
+--- Covert Channel Simulation ---
+Total size of message: 9 bytes
+Number of chunks received: 9
+Reassembly took: 107828018548ns
+Correctness of message: false
+Message: cuúpa qui
+--- Covert Channel Simulation ---
+Total size of message: 16 bytes
+Number of chunks received: 16
+Reassembly took: 108781219340ns
+Correctness of message: true
+Message: officia deserunt
+--- Covert Channel Simulation ---
+Total size of message: 11 bytes
+Number of chunks received: 11
+Reassembly took: 109529322840ns
+Correctness of message: true
+Message: mollit anim
+--- Covert Channel Simulation ---
+Total size of message: 6 bytes
+Number of chunks received: 6
+Reassembly took: 110040277924ns
+Correctness of message: true
+Message: id est
+--- Covert Channel Simulation ---
+Total size of message: 8 bytes
+Number of chunks received: 8
+Reassembly took: 110589772382ns
+Correctness of message: true
+Message: laborum.
+--- Covert Channel Simulation ---
+Total size of message: 11 bytes
+Number of chunks received: 11
+Reassembly took: 111281892508ns
+Correctness of message: true
+Message: Lorem ipsum
+--- Covert Channel Simulation ---
+Total size of message: 9 bytes
+Number of chunks received: 9
+Reassembly took: 111977969550ns
+Correctness of message: true
+Message: dolor sit
+--- Covert Channel Simulation ---
+Total size of message: 17 bytes
+Number of chunks received: 17
+Reassembly took: 113070897634ns
+Correctness of message: true
+Message: amet, consectetur
+--- Covert Channel Simulation ---
+Total size of message: 16 bytes
+Number of chunks received: 16
+Reassembly took: 114032193926ns
+Correctness of message: true
+Message: adipiscing elit.
+--- Covert Channel Simulation ---
+Total size of message: 6 bytes
+Number of chunks received: 6
+Reassembly took: 114649019301ns
+Correctness of message: true
+Message: Sed do
+--- Covert Channel Simulation ---
+Total size of message: 14 bytes
+Number of chunks received: 14
+Reassembly took: 115690106843ns
+Correctness of message: true
+Message: eiusmod tempor
+--- Covert Channel Simulation ---
+Total size of message: 13 bytes
+Number of chunks received: 13
+Reassembly took: 116470870677ns
+Correctness of message: true
+Message: incididunt ut
+--- Covert Channel Simulation ---
+Total size of message: 9 bytes
+Number of chunks received: 9
+Reassembly took: 117104676469ns
+Correctness of message: true
+Message: labore et
+--- Covert Channel Simulation ---
+Total size of message: 12 bytes
+Number of chunks received: 12
+Reassembly took: 118016151386ns
+Correctness of message: true
+Message: dolore magna
+--- Covert Channel Simulation ---
+Total size of message: 10 bytes
+Number of chunks received: 10
+Reassembly took: 118646380386ns
+Correctness of message: true
+Message: aliqua. Ut
+--- Covert Channel Simulation ---
+Total size of message: 7 bytes
+Number of chunks received: 7
+Reassembly took: 119211232428ns
+Correctness of message: true
+Message: enim ad
+--- Covert Channel Simulation ---
+Total size of message: 13 bytes
+Number of chunks received: 13
+Reassembly took: 120169882387ns
+Correctness of message: false
+Message: minim yeniam,
+--- Covert Channel Simulation ---
+Total size of message: 12 bytes
+Number of chunks received: 12
+Reassembly took: 120868695804ns
+Correctness of message: true
+Message: quis nostrud
+--- Covert Channel Simulation ---
+Total size of message: 20 bytes
+Number of chunks received: 20
+Reassembly took: 122075849805ns
+Correctness of message: false
+Message: exercitation uclamco
+--- Covert Channel Simulation ---
+Total size of message: 12 bytes
+Number of chunks received: 12
+Reassembly took: 122862728930ns
+Correctness of message: true
+Message: laboris nisi
+--- Covert Channel Simulation ---
+Total size of message: 10 bytes
+Number of chunks received: 10
+Reassembly took: 123540763972ns
+Correctness of message: false
+Message: ut aliqufp
+--- Covert Channel Simulation ---
+Total size of message: 5 bytes
+Number of chunks received: 5
+Reassembly took: 123972145055ns
+Correctness of message: true
+Message: ex ea
+--- Covert Channel Simulation ---
+Total size of message: 18 bytes
+Number of chunks received: 18
+Reassembly took: 125090693931ns
+Correctness of message: true
+Message: commodo consequat.
+--- Covert Channel Simulation ---
+Total size of message: 9 bytes
+Number of chunks received: 9
+Reassembly took: 125914363390ns
+Correctness of message: true
+Message: Duis aute
+--- Covert Channel Simulation ---
+Total size of message: 11 bytes
+Number of chunks received: 11
+Reassembly took: 126602704931ns
+Correctness of message: true
+Message: irure dolor
+--- Covert Channel Simulation ---
+Total size of message: 16 bytes
+Number of chunks received: 16
+Reassembly took: 127641266099ns
+Correctness of message: true
+Message: in reprehenderit
+--- Covert Channel Simulation ---
+Total size of message: 12 bytes
+Number of chunks received: 12
+Reassembly took: 128332532557ns
+Correctness of message: true
+Message: in voluptate
+--- Covert Channel Simulation ---
+Total size of message: 10 bytes
+Number of chunks received: 10
+Reassembly took: 129115695099ns
+Correctness of message: false
+Message: velitÄesse
+--- Covert Channel Simulation ---
+Total size of message: 13 bytes
+Number of chunks received: 13
+Reassembly took: 129923226683ns
+Correctness of message: true
+Message: cillum dolore
+--- Covert Channel Simulation ---
+Total size of message: 9 bytes
+Number of chunks received: 9
+Reassembly took: 130643799100ns
+Correctness of message: true
+Message: eu fugiat
+--- Covert Channel Simulation ---
+Total size of message: 15 bytes
+Number of chunks received: 15
+Reassembly took: 131518179975ns
+Correctness of message: true
+Message: nulla pariatur.
+--- Covert Channel Simulation ---
+Total size of message: 14 bytes
+Number of chunks received: 14
+Reassembly took: 132428512559ns
+Correctness of message: true
+Message: Excepteur sint
+--- Covert Channel Simulation ---
+Total size of message: 18 bytes
+Number of chunks received: 18
+Reassembly took: 133475244351ns
+Correctness of message: true
+Message: occaecat cupidatat
+--- Covert Channel Simulation ---
+Total size of message: 13 bytes
+Number of chunks received: 13
+Reassembly took: 134406993643ns
+Correctness of message: true
+Message: non proident,
+--- Covert Channel Simulation ---
+Total size of message: 7 bytes
+Number of chunks received: 7
+Reassembly took: 135024252519ns
+Correctness of message: true
+Message: sunt in
+--- Covert Channel Simulation ---
+Total size of message: 9 bytes
+Number of chunks received: 9
+Reassembly took: 135612946227ns
+Correctness of message: true
+Message: culpa qui
+--- Covert Channel Simulation ---
+Total size of message: 16 bytes
+Number of chunks received: 16
+Reassembly took: 136732481520ns
+Correctness of message: false
+Message: ofñicia deserunt
+--- Covert Channel Simulation ---
+Total size of message: 11 bytes
+Number of chunks received: 11
+Reassembly took: 137415290687ns
+Correctness of message: true
+Message: mollit anim
+--- Covert Channel Simulation ---
+Total size of message: 6 bytes
+Number of chunks received: 6
+Reassembly took: 137959639937ns
+Correctness of message: true
+Message: id est
+--- Covert Channel Simulation ---
+Total size of message: 8 bytes
+Number of chunks received: 8
+Reassembly took: 138496355270ns
+Correctness of message: true
+Message: laborum.
+--- Covert Channel Simulation ---
+Total size of message: 11 bytes
+Number of chunks received: 11
+Reassembly took: 139120836354ns
+Correctness of message: true
+Message: Lorem ipsum
+--- Covert Channel Simulation ---
+Total size of message: 9 bytes
+Number of chunks received: 9
+Reassembly took: 139858876604ns
+Correctness of message: true
+Message: dolor sit
+--- Covert Channel Simulation ---
+Total size of message: 17 bytes
+Number of chunks received: 17
+Reassembly took: 140873667605ns
+Correctness of message: true
+Message: amet, consectetur
+--- Covert Channel Simulation ---
+Total size of message: 16 bytes
+Number of chunks received: 16
+Reassembly took: 141847749980ns
+Correctness of message: true
+Message: adipiscing elit.
+--- Covert Channel Simulation ---
+Total size of message: 6 bytes
+Number of chunks received: 6
+Reassembly took: 142329599314ns
+Correctness of message: true
+Message: Sed do
+--- Covert Channel Simulation ---
+Total size of message: 14 bytes
+Number of chunks received: 14
+Reassembly took: 143265444231ns
+Correctness of message: true
+Message: eiusmod tempor
+--- Covert Channel Simulation ---
+Total size of message: 13 bytes
+Number of chunks received: 13
+Reassembly took: 144260568523ns
+Correctness of message: true
+Message: incididunt ut
+--- Covert Channel Simulation ---
+Total size of message: 9 bytes
+Number of chunks received: 9
+Reassembly took: 144932063357ns
+Correctness of message: true
+Message: labore et
+--- Covert Channel Simulation ---
+Total size of message: 12 bytes
+Number of chunks received: 12
+Reassembly took: 145735789941ns
+Correctness of message: false
+Message: dolore mamna
+--- Covert Channel Simulation ---
+Total size of message: 10 bytes
+Number of chunks received: 10
+Reassembly took: 146452223649ns
+Correctness of message: true
+Message: aliqua. Ut
+--- Covert Channel Simulation ---
+Total size of message: 7 bytes
+Number of chunks received: 7
+Reassembly took: 146916959774ns
+Correctness of message: true
+Message: enim ad
+--- Covert Channel Simulation ---
+Total size of message: 13 bytes
+Number of chunks received: 13
+Reassembly took: 147938482983ns
+Correctness of message: true
+Message: minim veniam,
+--- Covert Channel Simulation ---
+Total size of message: 12 bytes
+Number of chunks received: 12
+Reassembly took: 148727007317ns
+Correctness of message: true
+Message: quis nostrud
+--- Covert Channel Simulation ---
+Total size of message: 20 bytes
+Number of chunks received: 20
+Reassembly took: 149815386526ns
+Correctness of message: true
+Message: exercitation ullamco
+--- Covert Channel Simulation ---
+Total size of message: 12 bytes
+Number of chunks received: 12
+Reassembly took: 150527101109ns
+Correctness of message: true
+Message: laboris nisi
+--- Covert Channel Simulation ---
+Total size of message: 10 bytes
+Number of chunks received: 10
+Reassembly took: 151300102610ns
+Correctness of message: true
+Message: ut aliquip
+--- Covert Channel Simulation ---
+Total size of message: 5 bytes
+Number of chunks received: 5
+Reassembly took: 151720267735ns
+Correctness of message: true
+Message: ex ea
+--- Covert Channel Simulation ---
+Total size of message: 18 bytes
+Number of chunks received: 18
+Reassembly took: 152817012361ns
+Correctness of message: true
+Message: commodo consequat.
+--- Covert Channel Simulation ---
+Total size of message: 9 bytes
+Number of chunks received: 9
+Reassembly took: 153473306403ns
+Correctness of message: true
+Message: Duis aute
+--- Covert Channel Simulation ---
+Total size of message: 11 bytes
+Number of chunks received: 11
+Reassembly took: 154308983153ns
+Correctness of message: true
+Message: irure dolor
+--- Covert Channel Simulation ---
+Total size of message: 16 bytes
+Number of chunks received: 16
+Reassembly took: 155263603570ns
+Correctness of message: true
+Message: in reprehenderit
+--- Covert Channel Simulation ---
+Total size of message: 12 bytes
+Number of chunks received: 12
+Reassembly took: 156055880195ns
+Correctness of message: true
+Message: in voluptate
+--- Covert Channel Simulation ---
+Total size of message: 10 bytes
+Number of chunks received: 10
+Reassembly took: 156755822445ns
+Correctness of message: true
+Message: velit esse
+--- Covert Channel Simulation ---
+Total size of message: 13 bytes
+Number of chunks received: 13
+Reassembly took: 157590267779ns
+Correctness of message: true
+Message: cillum dolore
+--- Covert Channel Simulation ---
+Total size of message: 9 bytes
+Number of chunks received: 9
+Reassembly took: 158343018280ns
+Correctness of message: true
+Message: eu fugiat
+--- Covert Channel Simulation ---
+Total size of message: 15 bytes
+Number of chunks received: 15
+Reassembly took: 159359933322ns
+Correctness of message: true
+Message: nulla pariatur.
+--- Covert Channel Simulation ---
+Total size of message: 14 bytes
+Number of chunks received: 14
+Reassembly took: 160509765197ns
+Correctness of message: true
+Message: Excepteur sint
+--- Covert Channel Simulation ---
+Total size of message: 18 bytes
+Number of chunks received: 18
+Reassembly took: 161752989406ns
+Correctness of message: true
+Message: occaecat cupidatat
+--- Covert Channel Simulation ---
+Total size of message: 13 bytes
+Number of chunks received: 13
+Reassembly took: 162556672573ns
+Correctness of message: true
+Message: non proident,
+--- Covert Channel Simulation ---
+Total size of message: 7 bytes
+Number of chunks received: 7
+Reassembly took: 163171197574ns
+Correctness of message: true
+Message: sunt in
+--- Covert Channel Simulation ---
+Total size of message: 9 bytes
+Number of chunks received: 9
+Reassembly took: 163840754657ns
+Correctness of message: true
+Message: culpa qui
+--- Covert Channel Simulation ---
+Total size of message: 16 bytes
+Number of chunks received: 16
+Reassembly took: 164840172574ns
+Correctness of message: true
+Message: officia deserunt
+--- Covert Channel Simulation ---
+Total size of message: 11 bytes
+Number of chunks received: 11
+Reassembly took: 165593325325ns
+Correctness of message: true
+Message: mollit anim
+--- Covert Channel Simulation ---
+Total size of message: 6 bytes
+Number of chunks received: 6
+Reassembly took: 166085797158ns
+Correctness of message: true
+Message: id est
+--- Covert Channel Simulation ---
+Total size of message: 8 bytes
+Number of chunks received: 8
+Reassembly took: 166705477992ns
+Correctness of message: true
+Message: laborum.
+--- Covert Channel Simulation ---
+Total size of message: 11 bytes
+Number of chunks received: 11
+Reassembly took: 167494204784ns
+Correctness of message: true
+Message: Lorem ipsum
+--- Covert Channel Simulation ---
+Total size of message: 9 bytes
+Number of chunks received: 9
+Reassembly took: 168052312909ns
+Correctness of message: true
+Message: dolor sit
+--- Covert Channel Simulation ---
+Total size of message: 17 bytes
+Number of chunks received: 17
+Reassembly took: 169164748660ns
+Correctness of message: true
+Message: amet, consectetur
+--- Covert Channel Simulation ---
+Total size of message: 16 bytes
+Number of chunks received: 16
+Reassembly took: 170121225702ns
+Correctness of message: true
+Message: adipiscing elit.
+--- Covert Channel Simulation ---
+Total size of message: 6 bytes
+Number of chunks received: 6
+Reassembly took: 170621978369ns
+Correctness of message: true
+Message: Sed do
+--- Covert Channel Simulation ---
+Total size of message: 14 bytes
+Number of chunks received: 14
+Reassembly took: 171510377536ns
+Correctness of message: true
+Message: eiusmod tempor
+--- Covert Channel Simulation ---
+Total size of message: 13 bytes
+Number of chunks received: 13
+Reassembly took: 172354156536ns
+Correctness of message: true
+Message: incididunt ut
+--- Covert Channel Simulation ---
+Total size of message: 9 bytes
+Number of chunks received: 9
+Reassembly took: 173109348703ns
+Correctness of message: true
+Message: labore et
+--- Covert Channel Simulation ---
+Total size of message: 12 bytes
+Number of chunks received: 12
+Reassembly took: 173933401370ns
+Correctness of message: true
+Message: dolore magna
+--- Covert Channel Simulation ---
+Total size of message: 10 bytes
+Number of chunks received: 10
+Reassembly took: 174766695871ns
+Correctness of message: false
+Message: aliqua.Ut
+--- Covert Channel Simulation ---
+Total size of message: 7 bytes
+Number of chunks received: 7
+Reassembly took: 175288998954ns
+Correctness of message: true
+Message: enim ad
+--- Covert Channel Simulation ---
+Total size of message: 13 bytes
+Number of chunks received: 13
+Reassembly took: 176176192246ns
+Correctness of message: true
+Message: minim veniam,
+--- Covert Channel Simulation ---
+Total size of message: 12 bytes
+Number of chunks received: 12
+Reassembly took: 177072037372ns
+Correctness of message: false
+Message: quiO nostrud
+--- Covert Channel Simulation ---
+Total size of message: 20 bytes
+Number of chunks received: 20
+Reassembly took: 178251007664ns
+Correctness of message: true
+Message: exercitation ullamco
+--- Covert Channel Simulation ---
+Total size of message: 12 bytes
+Number of chunks received: 12
+Reassembly took: 179041590123ns
+Correctness of message: true
+Message: laboris nisi
+--- Covert Channel Simulation ---
+Total size of message: 10 bytes
+Number of chunks received: 10
+Reassembly took: 179747253748ns
+Correctness of message: true
+Message: ut aliquip
+--- Covert Channel Simulation ---
+Total size of message: 5 bytes
+Number of chunks received: 5
+Reassembly took: 180300472623ns
+Correctness of message: true
+Message: ex ea
+--- Covert Channel Simulation ---
+Total size of message: 18 bytes
+Number of chunks received: 18
+Reassembly took: 181372234291ns
+Correctness of message: true
+Message: commodo consequat.
+--- Covert Channel Simulation ---
+Total size of message: 9 bytes
+Number of chunks received: 9
+Reassembly took: 182093405874ns
+Correctness of message: true
+Message: Duis aute
+--- Covert Channel Simulation ---
+Total size of message: 11 bytes
+Number of chunks received: 11
+Reassembly took: 182822324375ns
+Correctness of message: true
+Message: irure dolor
+--- Covert Channel Simulation ---
+Total size of message: 16 bytes
+Number of chunks received: 16
+Reassembly took: 183838257833ns
+Correctness of message: true
+Message: in reprehenderit
+--- Covert Channel Simulation ---
+Total size of message: 12 bytes
+Number of chunks received: 12
+Reassembly took: 184561424250ns
+Correctness of message: true
+Message: in voluptate
+--- Covert Channel Simulation ---
+Total size of message: 10 bytes
+Number of chunks received: 10
+Reassembly took: 185262265459ns
+Correctness of message: true
+Message: velit esse
+--- Covert Channel Simulation ---
+Total size of message: 13 bytes
+Number of chunks received: 13
+Reassembly took: 186174811042ns
+Correctness of message: false
+Message: cilcum dolore
+--- Covert Channel Simulation ---
+Total size of message: 9 bytes
+Number of chunks received: 9
+Reassembly took: 186863179459ns
+Correctness of message: true
+Message: eu fugiat
+--- Covert Channel Simulation ---
+Total size of message: 15 bytes
+Number of chunks received: 15
+Reassembly took: 187980327918ns
+Correctness of message: false
+Message: nulla pariItur.
+--- Covert Channel Simulation ---
+Total size of message: 14 bytes
+Number of chunks received: 14
+Reassembly took: 188882273543ns
+Correctness of message: true
+Message: Excepteur sint
+--- Covert Channel Simulation ---
+Total size of message: 18 bytes
+Number of chunks received: 18
+Reassembly took: 190065210252ns
+Correctness of message: true
+Message: occaecat cupidatat
+--- Covert Channel Simulation ---
+Total size of message: 13 bytes
+Number of chunks received: 13
+Reassembly took: 190900763461ns
+Correctness of message: true
+Message: non proident,
+--- Covert Channel Simulation ---
+Total size of message: 7 bytes
+Number of chunks received: 7
+Reassembly took: 191519903211ns
+Correctness of message: false
+Message: sunt iõ
+--- Covert Channel Simulation ---
+Total size of message: 9 bytes
+Number of chunks received: 9
+Reassembly took: 192136246670ns
+Correctness of message: true
+Message: culpa qui
+--- Covert Channel Simulation ---
+Total size of message: 16 bytes
+Number of chunks received: 16
+Reassembly took: 193129318879ns
+Correctness of message: true
+Message: officia deserunt
+--- Covert Channel Simulation ---
+Total size of message: 11 bytes
+Number of chunks received: 11
+Reassembly took: 193957425004ns
+Correctness of message: true
+Message: mollit anim
+--- Covert Channel Simulation ---
+Total size of message: 6 bytes
+Number of chunks received: 6
+Reassembly took: 194431288796ns
+Correctness of message: true
+Message: id est
+--- Covert Channel Simulation ---
+Total size of message: 8 bytes
+Number of chunks received: 8
+Reassembly took: 195089373005ns
+Correctness of message: true
+Message: laborum.
+--- Covert Channel Simulation ---
+Total size of message: 11 bytes
+Number of chunks received: 11
+Reassembly took: 195802877880ns
+Correctness of message: true
+Message: Lorem ipsum
+--- Covert Channel Simulation ---
+Total size of message: 9 bytes
+Number of chunks received: 9
+Reassembly took: 196505137797ns
+Correctness of message: true
+Message: dolor sit
+--- Covert Channel Simulation ---
+Total size of message: 17 bytes
+Number of chunks received: 17
+Reassembly took: 197714718089ns
+Correctness of message: true
+Message: amet, consectetur
+--- Covert Channel Simulation ---
+Total size of message: 16 bytes
+Number of chunks received: 16
+Reassembly took: 198683451881ns
+Correctness of message: true
+Message: adipiscing elit.
+--- Covert Channel Simulation ---
+Total size of message: 6 bytes
+Number of chunks received: 6
+Reassembly took: 199168676298ns
+Correctness of message: true
+Message: Sed do
+--- Covert Channel Simulation ---
+Total size of message: 14 bytes
+Number of chunks received: 14
+Reassembly took: 200045218882ns
+Correctness of message: true
+Message: eiusmod tempor
+--- Covert Channel Simulation ---
+Total size of message: 13 bytes
+Number of chunks received: 13
+Reassembly took: 200806775049ns
+Correctness of message: true
+Message: incididunt ut
+--- Covert Channel Simulation ---
+Total size of message: 9 bytes
+Number of chunks received: 9
+Reassembly took: 201451899383ns
+Correctness of message: true
+Message: labore et
+--- Covert Channel Simulation ---
+Total size of message: 12 bytes
+Number of chunks received: 12
+Reassembly took: 202189139217ns
+Correctness of message: true
+Message: dolore magna
+--- Covert Channel Simulation ---
+Total size of message: 10 bytes
+Number of chunks received: 10
+Reassembly took: 202815216300ns
+Correctness of message: true
+Message: aliqua. Ut
+--- Covert Channel Simulation ---
+Total size of message: 7 bytes
+Number of chunks received: 7
+Reassembly took: 203399912050ns
+Correctness of message: true
+Message: enim ad
+--- Covert Channel Simulation ---
+Total size of message: 13 bytes
+Number of chunks received: 13
+Reassembly took: 204331066926ns
+Correctness of message: false
+Message: m©mim veniam,
+--- Covert Channel Simulation ---
+Total size of message: 12 bytes
+Number of chunks received: 12
+Reassembly took: 205220199510ns
+Correctness of message: true
+Message: quis nostrud
+--- Covert Channel Simulation ---
+Total size of message: 20 bytes
+Number of chunks received: 20
+Reassembly took: 206380934469ns
+Correctness of message: false
+Message: exexcitation ullamco
+--- Covert Channel Simulation ---
+Total size of message: 12 bytes
+Number of chunks received: 12
+Reassembly took: 207159207927ns
+Correctness of message: true
+Message: laboris nisi
+--- Covert Channel Simulation ---
+Total size of message: 10 bytes
+Number of chunks received: 10
+Reassembly took: 207903891178ns
+Correctness of message: true
+Message: ut aliquip
+--- Covert Channel Simulation ---
+Total size of message: 5 bytes
+Number of chunks received: 5
+Reassembly took: 208350853553ns
+Correctness of message: true
+Message: ex ea
+--- Covert Channel Simulation ---
+Total size of message: 18 bytes
+Number of chunks received: 18
+Reassembly took: 209529843678ns
+Correctness of message: false
+Message: commodo consequa‘.
+--- Covert Channel Simulation ---
+Total size of message: 9 bytes
+Number of chunks received: 9
+Reassembly took: 210170254929ns
+Correctness of message: true
+Message: Duis aute
+--- Covert Channel Simulation ---
+Total size of message: 11 bytes
+Number of chunks received: 11
+Reassembly took: 211050785512ns
+Correctness of message: true
+Message: irure dolor
+--- Covert Channel Simulation ---
+Total size of message: 16 bytes
+Number of chunks received: 16
+Reassembly took: 212074169305ns
+Correctness of message: false
+Message: in rVprehenderit
+--- Covert Channel Simulation ---
+Total size of message: 12 bytes
+Number of chunks received: 12
+Reassembly took: 212832823680ns
+Correctness of message: true
+Message: in voluptate
+--- Covert Channel Simulation ---
+Total size of message: 10 bytes
+Number of chunks received: 10
+Reassembly took: 213553225014ns
+Correctness of message: true
+Message: velit esse
+--- Covert Channel Simulation ---
+Total size of message: 13 bytes
+Number of chunks received: 13
+Reassembly took: 214459821722ns
+Correctness of message: true
+Message: cillum dolore
+--- Covert Channel Simulation ---
+Total size of message: 9 bytes
+Number of chunks received: 9
+Reassembly took: 215105721181ns
+Correctness of message: true
+Message: eu fugiat
+--- Covert Channel Simulation ---
+Total size of message: 15 bytes
+Number of chunks received: 15
+Reassembly took: 216092959098ns
+Correctness of message: false
+Message: nu,ma pariatur.
+--- Covert Channel Simulation ---
+Total size of message: 14 bytes
+Number of chunks received: 14
+Reassembly took: 216940026682ns
+Correctness of message: true
+Message: Excepteur sint
+--- Covert Channel Simulation ---
+Total size of message: 18 bytes
+Number of chunks received: 18
+Reassembly took: 217999578682ns
+Correctness of message: true
+Message: occaecat cupidatat
+--- Covert Channel Simulation ---
+Total size of message: 13 bytes
+Number of chunks received: 13
+Reassembly took: 218867797641ns
+Correctness of message: false
+Message: non proidïnt,
+--- Covert Channel Simulation ---
+Total size of message: 7 bytes
+Number of chunks received: 7
+Reassembly took: 219542119599ns
+Correctness of message: true
+Message: sunt in
+--- Covert Channel Simulation ---
+Total size of message: 9 bytes
+Number of chunks received: 9
+Reassembly took: 220296166141ns
+Correctness of message: true
+Message: culpa qui
+--- Covert Channel Simulation ---
+Total size of message: 16 bytes
+Number of chunks received: 16
+Reassembly took: 221346623184ns
+Correctness of message: true
+Message: officia deserunt
+--- Covert Channel Simulation ---
+Total size of message: 11 bytes
+Number of chunks received: 11
+Reassembly took: 222193245267ns
+Correctness of message: false
+Message: gollit anim
+--- Covert Channel Simulation ---
+Total size of message: 6 bytes
+Number of chunks received: 6
+Reassembly took: 222791854643ns
+Correctness of message: true
+Message: id est
+--- Covert Channel Simulation ---
+Total size of message: 8 bytes
+Number of chunks received: 8
+Reassembly took: 223438796268ns
+Correctness of message: true
+Message: laborum.
+--- Covert Channel Simulation ---
+Total size of message: 11 bytes
+Number of chunks received: 11
+Reassembly took: 224231295018ns
+Correctness of message: true
+Message: Lorem ipsum
+--- Covert Channel Simulation ---
+Total size of message: 9 bytes
+Number of chunks received: 9
+Reassembly took: 225077228727ns
+Correctness of message: true
+Message: dolor sit
+--- Covert Channel Simulation ---
+Total size of message: 17 bytes
+Number of chunks received: 17
+Reassembly took: 226313016144ns
+Correctness of message: true
+Message: amet, consectetur
+--- Covert Channel Simulation ---
+Total size of message: 16 bytes
+Number of chunks received: 16
+Reassembly took: 227236994978ns
+Correctness of message: true
+Message: adipiscing elit.
+--- Covert Channel Simulation ---
+Total size of message: 6 bytes
+Number of chunks received: 6
+Reassembly took: 227713229853ns
+Correctness of message: true
+Message: Sed do
+--- Covert Channel Simulation ---
+Total size of message: 14 bytes
+Number of chunks received: 14
+Reassembly took: 228608273062ns
+Correctness of message: true
+Message: eiusmod tempor
+--- Covert Channel Simulation ---
+Total size of message: 13 bytes
+Number of chunks received: 13
+Reassembly took: 229498305771ns
+Correctness of message: true
+Message: incididunt ut
+--- Covert Channel Simulation ---
+Total size of message: 9 bytes
+Number of chunks received: 9
+Reassembly took: 230091224688ns
+Correctness of message: true
+Message: labore et
+--- Covert Channel Simulation ---
+Total size of message: 12 bytes
+Number of chunks received: 12
+Reassembly took: 230895908230ns
+Correctness of message: true
+Message: dolore magna
+--- Covert Channel Simulation ---
+Total size of message: 10 bytes
+Number of chunks received: 10
+Reassembly took: 231633966939ns
+Correctness of message: true
+Message: aliqua. Ut
+--- Covert Channel Simulation ---
+Total size of message: 7 bytes
+Number of chunks received: 7
+Reassembly took: 232225908689ns
+Correctness of message: true
+Message: enim ad
+--- Covert Channel Simulation ---
+Total size of message: 13 bytes
+Number of chunks received: 13
+Reassembly took: 232990470689ns
+Correctness of message: true
+Message: minim veniam,
+--- Covert Channel Simulation ---
+Total size of message: 12 bytes
+Number of chunks received: 12
+Reassembly took: 233935280356ns
+Correctness of message: true
+Message: quis nostrud
+--- Covert Channel Simulation ---
+Total size of message: 20 bytes
+Number of chunks received: 20
+Reassembly took: 235154224024ns
+Correctness of message: true
+Message: exercitation ullamco
+--- Covert Channel Simulation ---
+Total size of message: 12 bytes
+Number of chunks received: 12
+Reassembly took: 235947511691ns
+Correctness of message: true
+Message: laboris nisi
+--- Covert Channel Simulation ---
+Total size of message: 10 bytes
+Number of chunks received: 10
+Reassembly took: 236573073149ns
+Correctness of message: true
+Message: ut aliquip
+--- Covert Channel Simulation ---
+Total size of message: 5 bytes
+Number of chunks received: 5
+Reassembly took: 237154838441ns
+Correctness of message: true
+Message: ex ea
+--- Covert Channel Simulation ---
+Total size of message: 18 bytes
+Number of chunks received: 18
+Reassembly took: 238342127900ns
+Correctness of message: true
+Message: commodo consequat.
+--- Covert Channel Simulation ---
+Total size of message: 9 bytes
+Number of chunks received: 9
+Reassembly took: 239022310567ns
+Correctness of message: true
+Message: Duis aute
+--- Covert Channel Simulation ---
+Total size of message: 11 bytes
+Number of chunks received: 11
+Reassembly took: 239882886068ns
+Correctness of message: true
+Message: irure dolor
+--- Covert Channel Simulation ---
+Total size of message: 16 bytes
+Number of chunks received: 16
+Reassembly took: 240929716151ns
+Correctness of message: true
+Message: in reprehenderit
+--- Covert Channel Simulation ---
+Total size of message: 12 bytes
+Number of chunks received: 12
+Reassembly took: 241755319527ns
+Correctness of message: true
+Message: in voluptate
+--- Covert Channel Simulation ---
+Total size of message: 10 bytes
+Number of chunks received: 10
+Reassembly took: 242368312569ns
+Correctness of message: true
+Message: velit esse
+--- Covert Channel Simulation ---
+Total size of message: 13 bytes
+Number of chunks received: 13
+Reassembly took: 243124158569ns
+Correctness of message: true
+Message: cillum dolore
+--- Covert Channel Simulation ---
+Total size of message: 9 bytes
+Number of chunks received: 9
+Reassembly took: 243825175069ns
+Correctness of message: true
+Message: eu fugiat
+--- Covert Channel Simulation ---
+Total size of message: 15 bytes
+Number of chunks received: 15
+Reassembly took: 244743224611ns
+Correctness of message: true
+Message: nulla pariatur.
+--- Covert Channel Simulation ---
+Total size of message: 14 bytes
+Number of chunks received: 14
+Reassembly took: 245605938904ns
+Correctness of message: true
+Message: Excepteur sint
+--- Covert Channel Simulation ---
+Total size of message: 18 bytes
+Number of chunks received: 18
+Reassembly took: 246675406987ns
+Correctness of message: true
+Message: occaecat cupidatat
+--- Covert Channel Simulation ---
+Total size of message: 13 bytes
+Number of chunks received: 13
+Reassembly took: 247449900279ns
+Correctness of message: true
+Message: non proident,
+--- Covert Channel Simulation ---
+Total size of message: 7 bytes
+Number of chunks received: 7
+Reassembly took: 248038171946ns
+Correctness of message: true
+Message: sunt in
+--- Covert Channel Simulation ---
+Total size of message: 9 bytes
+Number of chunks received: 9
+Reassembly took: 248621826654ns
+Correctness of message: true
+Message: culpa qui
+--- Covert Channel Simulation ---
+Total size of message: 16 bytes
+Number of chunks received: 16
+Reassembly took: 249533401071ns
+Correctness of message: true
+Message: officia deserunt
+--- Covert Channel Simulation ---
+Total size of message: 11 bytes
+Number of chunks received: 11
+Reassembly took: 250228054322ns
+Correctness of message: true
+Message: mollit anim
+--- Covert Channel Simulation ---
+Total size of message: 6 bytes
+Number of chunks received: 6
+Reassembly took: 250716162322ns
+Correctness of message: true
+Message: id est
+--- Covert Channel Simulation ---
+Total size of message: 8 bytes
+Number of chunks received: 8
+Reassembly took: 251371172531ns
+Correctness of message: true
+Message: laborum.
+--- Covert Channel Simulation ---
+Total size of message: 11 bytes
+Number of chunks received: 11
+Reassembly took: 252000605573ns
+Correctness of message: true
+Message: Lorem ipsum
+--- Covert Channel Simulation ---
+Total size of message: 9 bytes
+Number of chunks received: 9
+Reassembly took: 252560955573ns
+Correctness of message: true
+Message: dolor sit
+--- Covert Channel Simulation ---
+Total size of message: 17 bytes
+Number of chunks received: 17
+Reassembly took: 253576938490ns
+Correctness of message: true
+Message: amet, consectetur
+--- Covert Channel Simulation ---
+Total size of message: 16 bytes
+Number of chunks received: 16
+Reassembly took: 254506043907ns
+Correctness of message: false
+Message: adipisciûg elit.
+--- Covert Channel Simulation ---
+Total size of message: 6 bytes
+Number of chunks received: 6
+Reassembly took: 254951180741ns
+Correctness of message: true
+Message: Sed do
+--- Covert Channel Simulation ---
+Total size of message: 14 bytes
+Number of chunks received: 14
+Reassembly took: 255735058574ns
+Correctness of message: true
+Message: eiusmod tempor
+--- Covert Channel Simulation ---
+Total size of message: 13 bytes
+Number of chunks received: 13
+Reassembly took: 256522220616ns
+Correctness of message: true
+Message: incididunt ut
+--- Covert Channel Simulation ---
+Total size of message: 9 bytes
+Number of chunks received: 9
+Reassembly took: 257138916992ns
+Correctness of message: true
+Message: labore et
+--- Covert Channel Simulation ---
+Total size of message: 12 bytes
+Number of chunks received: 12
+Reassembly took: 257906387409ns
+Correctness of message: true
+Message: dolore magna
+--- Covert Channel Simulation ---
+Total size of message: 10 bytes
+Number of chunks received: 10
+Reassembly took: 258594261617ns
+Correctness of message: true
+Message: aliqua. Ut
+--- Covert Channel Simulation ---
+Total size of message: 7 bytes
+Number of chunks received: 7
+Reassembly took: 259110701618ns
+Correctness of message: true
+Message: enim ad
+--- Covert Channel Simulation ---
+Total size of message: 13 bytes
+Number of chunks received: 13
+Reassembly took: 259933905076ns
+Correctness of message: true
+Message: minim veniam,
+--- Covert Channel Simulation ---
+Total size of message: 12 bytes
+Number of chunks received: 12
+Reassembly took: 260740542952ns
+Correctness of message: true
+Message: quis nostrud
+--- Covert Channel Simulation ---
+Total size of message: 20 bytes
+Number of chunks received: 20
+Reassembly took: 261926353661ns
+Correctness of message: true
+Message: exercitation ullamco
+--- Covert Channel Simulation ---
+Total size of message: 12 bytes
+Number of chunks received: 12
+Reassembly took: 262755877328ns
+Correctness of message: true
+Message: laboris nisi
+--- Covert Channel Simulation ---
+Total size of message: 10 bytes
+Number of chunks received: 10
+Reassembly took: 263563466286ns
+Correctness of message: true
+Message: ut aliquip
+--- Covert Channel Simulation ---
+Total size of message: 5 bytes
+Number of chunks received: 5
+Reassembly took: 264040212787ns
+Correctness of message: true
+Message: ex ea
+--- Covert Channel Simulation ---
+Total size of message: 18 bytes
+Number of chunks received: 18
+Reassembly took: 265155991621ns
+Correctness of message: true
+Message: commodo consequat.
+--- Covert Channel Simulation ---
+Total size of message: 9 bytes
+Number of chunks received: 9
+Reassembly took: 265784664913ns
+Correctness of message: true
+Message: Duis aute
+--- Covert Channel Simulation ---
+Total size of message: 11 bytes
+Number of chunks received: 11
+Reassembly took: 266530161455ns
+Correctness of message: true
+Message: irure dolor
+--- Covert Channel Simulation ---
+Total size of message: 16 bytes
+Number of chunks received: 16
+Reassembly took: 267704672455ns
+Correctness of message: true
+Message: in reprehenderit
+--- Covert Channel Simulation ---
+Total size of message: 12 bytes
+Number of chunks received: 12
+Reassembly took: 268576624706ns
+Correctness of message: true
+Message: in voluptate
+--- Covert Channel Simulation ---
+Total size of message: 10 bytes
+Number of chunks received: 10
+Reassembly took: 269314841914ns
+Correctness of message: true
+Message: velit esse
+--- Covert Channel Simulation ---
+Total size of message: 13 bytes
+Number of chunks received: 13
+Reassembly took: 270158238498ns
+Correctness of message: true
+Message: cillum dolore
+--- Covert Channel Simulation ---
+Total size of message: 9 bytes
+Number of chunks received: 9
+Reassembly took: 270821862957ns
+Correctness of message: true
+Message: eu fugiat
+--- Covert Channel Simulation ---
+Total size of message: 15 bytes
+Number of chunks received: 15
+Reassembly took: 271821386249ns
+Correctness of message: true
+Message: nulla pariatur.
+--- Covert Channel Simulation ---
+Total size of message: 14 bytes
+Number of chunks received: 14
+Reassembly took: 272697596708ns
+Correctness of message: false
+Message: Excepteur si^“
+--- Covert Channel Simulation ---
+Total size of message: 18 bytes
+Number of chunks received: 18
+Reassembly took: 273776730666ns
+Correctness of message: true
+Message: occaecat cupidatat
+--- Covert Channel Simulation ---
+Total size of message: 13 bytes
+Number of chunks received: 13
+Reassembly took: 274710247917ns
+Correctness of message: true
+Message: non proident,
+--- Covert Channel Simulation ---
+Total size of message: 7 bytes
+Number of chunks received: 7
+Reassembly took: 275214107042ns
+Correctness of message: true
+Message: sunt in
+--- Covert Channel Simulation ---
+Total size of message: 9 bytes
+Number of chunks received: 9
+Reassembly took: 275892543667ns
+Correctness of message: true
+Message: culpa qui
+--- Covert Channel Simulation ---
+Total size of message: 16 bytes
+Number of chunks received: 16
+Reassembly took: 277037906834ns
+Correctness of message: false
+Message: officia de”erunt
+--- Covert Channel Simulation ---
+Total size of message: 11 bytes
+Number of chunks received: 11
+Reassembly took: 277776068376ns
+Correctness of message: true
+Message: mollit anim
+--- Covert Channel Simulation ---
+Total size of message: 6 bytes
+Number of chunks received: 6
+Reassembly took: 278275576502ns
+Correctness of message: true
+Message: id est
+--- Covert Channel Simulation ---
+Total size of message: 8 bytes
+Number of chunks received: 8
+Reassembly took: 278907784293ns
+Correctness of message: true
+Message: laborum.
+--- Covert Channel Simulation ---
+Total size of message: 11 bytes
+Number of chunks received: 11
+Reassembly took: 279686102919ns
+Correctness of message: true
+Message: Lorem ipsum
+--- Covert Channel Simulation ---
+Total size of message: 9 bytes
+Number of chunks received: 9
+Reassembly took: 280400646753ns
+Correctness of message: true
+Message: dolor sit
+--- Covert Channel Simulation ---
+Total size of message: 17 bytes
+Number of chunks received: 17
+Reassembly took: 281583386586ns
+Correctness of message: true
+Message: amet, consectetur
+--- Covert Channel Simulation ---
+Total size of message: 16 bytes
+Number of chunks received: 16
+Reassembly took: 282459189462ns
+Correctness of message: true
+Message: adipiscing elit.
+--- Covert Channel Simulation ---
+Total size of message: 6 bytes
+Number of chunks received: 6
+Reassembly took: 283081180879ns
+Correctness of message: true
+Message: Sed do
+--- Covert Channel Simulation ---
+Total size of message: 14 bytes
+Number of chunks received: 14
+Reassembly took: 283927908421ns
+Correctness of message: true
+Message: eiusmod tempor
+--- Covert Channel Simulation ---
+Total size of message: 13 bytes
+Number of chunks received: 13
+Reassembly took: 284851841171ns
+Correctness of message: true
+Message: incididunt ut
+--- Covert Channel Simulation ---
+Total size of message: 9 bytes
+Number of chunks received: 9
+Reassembly took: 285377948672ns
+Correctness of message: true
+Message: labore et
+--- Covert Channel Simulation ---
+Total size of message: 12 bytes
+Number of chunks received: 12
+Reassembly took: 286341359297ns
+Correctness of message: false
+Message: dolore mëgna
+--- Covert Channel Simulation ---
+Total size of message: 10 bytes
+Number of chunks received: 10
+Reassembly took: 287149953506ns
+Correctness of message: true
+Message: aliqua. Ut
+--- Covert Channel Simulation ---
+Total size of message: 7 bytes
+Number of chunks received: 7
+Reassembly took: 287730392006ns
+Correctness of message: true
+Message: enim ad
+--- Covert Channel Simulation ---
+Total size of message: 13 bytes
+Number of chunks received: 13
+Reassembly took: 288610386215ns
+Correctness of message: true
+Message: minim veniam,
+--- Covert Channel Simulation ---
+Total size of message: 12 bytes
+Number of chunks received: 12
+Reassembly took: 289383049548ns
+Correctness of message: true
+Message: quis nostrud
+--- Covert Channel Simulation ---
+Total size of message: 20 bytes
+Number of chunks received: 20
+Reassembly took: 290752853757ns
+Correctness of message: true
+Message: exercitation ullamco
