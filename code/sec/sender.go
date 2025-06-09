@@ -15,6 +15,7 @@ import (
 
 const BASE_DOMAIN = "example.com"
 const NORMAL_TRAFFIC_DOMAIN = "normal.example.com"
+const NORMAL_TRAFFIC_WEIGHT = 0.5 // Weight for normal traffic queries
 
 func generateDNSQuery(domain string, qtype layers.DNSType) ([]byte, error) {
 	// Generate a random transaction ID
@@ -56,7 +57,8 @@ func generateDNSQuery(domain string, qtype layers.DNSType) ([]byte, error) {
 }
 
 func udpSender(
-	dnsQueryGenerator func(string) ([][]byte, error),
+	normalGenerator func(string) ([][]byte, error),
+	covertGenerator func(string) ([][]byte, error),
 	message string,
 	waitBetween int,
 ) {
@@ -83,17 +85,31 @@ func udpSender(
 	}
 	defer conn.Close()
 
-	// Generate DNS query
-	dnsQueries, err := dnsQueryGenerator(message)
+	covertQueries, covertQueriesErr := covertGenerator(message)
+	normalQueries, normalQueriesErr := normalGenerator(message)
 
-	if err != nil {
-		fmt.Printf("Error generating DNS queries: %s\n", err)
+	if normalQueriesErr != nil {
+		fmt.Printf("Error generating normal traffic queries: %s\n", normalQueriesErr)
 		return
 	}
 
-	if len(dnsQueries) == 0 {
-		fmt.Println("No DNS queries generated.")
+	if covertQueriesErr != nil {
+		fmt.Printf("Error generating covert channel queries: %s\n", covertQueriesErr)
 		return
+	}
+
+	var dnsQueries [][]byte
+
+	for i := 0; i < len(covertQueries); {
+		randomValue := rand.Float64()
+		if randomValue < NORMAL_TRAFFIC_WEIGHT {
+			// Add a normal traffic query
+			dnsQueries = append(dnsQueries, normalQueries[0])
+		} else {
+			// Add a covert channel query
+			dnsQueries = append(dnsQueries, covertQueries[i%len(covertQueries)])
+			i += 1
+		}
 	}
 
 	fmt.Println("Sending DNS queries...", len(dnsQueries))
@@ -167,30 +183,32 @@ func main() {
 
 	fmt.Printf("Read %d lines from file %s\n", len(lines), filename)
 
-	// Select the appropriate generator based on type
-	var generator func(string) ([][]byte, error)
-	if typeArg == "normal" {
-		generator = NORMAL_TRAFFIC_GENERATOR_MAP["normal"]
-		fmt.Println("Using normal traffic generator")
-	} else {
-		generator = COVERT_CHANNEL_GENERATOR_MAP[typeArg]
-		fmt.Printf("Using covert channel generator: %s\n", typeArg)
-	}
-
-	if generator == nil {
-		fmt.Printf("Unknown generator type: %s\n", typeArg)
+	// Always use normal traffic generator first
+	normalGenerator := NORMAL_TRAFFIC_GENERATOR_MAP["normal"]
+	if normalGenerator == nil {
+		fmt.Println("Normal traffic generator not found")
 		return
 	}
+
+	// Select the covert channel generator based on type
+	covertGenerator := COVERT_CHANNEL_GENERATOR_MAP[typeArg]
+	if covertGenerator == nil {
+		fmt.Printf("Unknown covert channel generator type: %s\n", typeArg)
+		return
+	}
+	fmt.Printf("Using normal traffic generator + covert channel generator: %s\n", typeArg)
 
 	// Send each line as a separate message with 2 seconds between them
 	for i, line := range lines {
 		fmt.Printf("\nSending line %d: %s\n", i+1, line)
-		udpSender(generator, line, waitBetween)
+
+		// Send traffic using udpSender which will randomly choose between normal and covert
+		udpSender(normalGenerator, covertGenerator, line, waitBetween)
 
 		// Wait 2 seconds before sending the next line (except for the last line)
 		if i < len(lines)-1 {
-			fmt.Println("Waiting 2 seconds before sending next line...")
-			time.Sleep(2 * time.Second)
+			fmt.Println("Waiting 0.2 seconds before sending next line...")
+			time.Sleep(200 * time.Millisecond)
 		}
 	}
 
