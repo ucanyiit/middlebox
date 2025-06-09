@@ -5,6 +5,7 @@ import (
 	"io"
 	"log"
 	"math"
+	"math/rand"
 	"os"
 	"sync"
 	"time"
@@ -12,6 +13,22 @@ import (
 	"github.com/google/gopacket"
 	"github.com/google/gopacket/layers"
 	"github.com/nats-io/nats.go"
+)
+
+// Threat level thresholds
+const (
+	CriticalThreatThreshold = 1000.0
+	HighThreatThreshold     = 500.0
+	MediumThreatThreshold   = 200.0
+	LowThreatThreshold      = 50.0
+	MitigationProbability   = 0.1 // 1/10th chance (10%)
+	DelayDuration           = 200 // Delay in milliseconds
+)
+
+// Mitigation strategies
+const (
+	DropStrategy  = "drop"
+	DelayStrategy = "delay"
 )
 
 // DNSRecordType holds information about DNS record types
@@ -31,6 +48,8 @@ var (
 	dnsTypeMutex    sync.RWMutex
 	totalDNSPackets int
 	suspicionScore  float64 // Running suspicion score
+	droppedPackets  int     // Counter for dropped packets
+	delayedPackets  int     // Counter for delayed packets
 
 	// Rolling window for last 100 packets
 	dnsPacketWindow []DNSPacketRecord
@@ -142,10 +161,7 @@ func analyzeDNSPacket(dns *layers.DNS) {
 		dnsPacketWindow = dnsPacketWindow[1:]
 	}
 
-	// Print frequency analysis every 20 packets
-	if totalDNSPackets%20 == 0 {
-		evaluateThreatLevel()
-	}
+	evaluateThreatLevel()
 }
 
 // Function to print DNS type frequency analysis with suspicion scoring based on rolling window
@@ -193,24 +209,54 @@ func logThreatLevelAnalysis() {
 	logOutput("Total DNS packets processed: %d\n", totalDNSPackets)
 	logOutput("Current window size: %d packets (max %d)\n", windowSize, maxWindowSize)
 
-	if suspicionScore >= 1000 {
+	if suspicionScore >= CriticalThreatThreshold {
 		logOutput("🚨 CRITICAL THREAT LEVEL (Score: %.1f)\n", suspicionScore)
-	} else if suspicionScore >= 500 {
+	} else if suspicionScore >= HighThreatThreshold {
 		logOutput("⚠️  HIGH THREAT LEVEL (Score: %.1f)\n", suspicionScore)
-	} else if suspicionScore >= 200 {
+	} else if suspicionScore >= MediumThreatThreshold {
 		logOutput("🟡 MEDIUM THREAT LEVEL (Score: %.1f)\n", suspicionScore)
-	} else if suspicionScore >= 50 {
+	} else if suspicionScore >= LowThreatThreshold {
 		logOutput("🟢 LOW THREAT LEVEL (Score: %.1f)\n", suspicionScore)
 	} else {
 		logOutput("✅ NORMAL ACTIVITY (Score: %.1f)\n", suspicionScore)
 	}
 }
 
+// Function to mitigate packets based on strategy
+func mitigatePacket(strategy string, suspicionScore float64) bool {
+	// Apply mitigation based on strategy with 1/10th probability
+	if rand.Float32() < MitigationProbability {
+		switch strategy {
+		case DropStrategy:
+			dnsTypeMutex.Lock()
+			droppedPackets++
+			totalDropped := droppedPackets
+			dnsTypeMutex.Unlock()
+
+			logOutput("🚫 PACKET DROPPED (Strategy: %s, Suspicion Score: %.1f, Total Dropped: %d)\n",
+				strategy, suspicionScore, totalDropped)
+			return true // Packet was mitigated (droppe
+		case DelayStrategy:
+			dnsTypeMutex.Lock()
+			delayedPackets++
+			totalDelayed := delayedPackets
+			dnsTypeMutex.Unlock()
+
+			logOutput("⏳ PACKET DELAYED (Strategy: %s, Suspicion Score: %.1f, Delay: %dms, Total Delayed: %d)\n",
+				strategy, suspicionScore, DelayDuration, totalDelayed)
+			time.Sleep(DelayDuration * time.Millisecond)
+			return false // Packet was mitigated but not dropped (will be forwarded after delay)
+
+		default:
+			logOutput("⚠️ Unknown mitigation strategy: %s\n", strategy)
+			return false
+		}
+	}
+	return false // No mitigation applied
+}
+
 // Function to process the ethernet packet
 func processEthernetPacket(nc *nats.Conn, iface string, data []byte) {
-	// Add your ethernet packet processing logic here
-	// logOutput("Processing ethernet packet: %s\n", iface)
-
 	// Use gopacket to dissect the packet
 	packet := gopacket.NewPacket(data, layers.LayerTypeEthernet, gopacket.Default)
 	if packet.ErrorLayer() != nil {
@@ -262,10 +308,11 @@ func processEthernetPacket(nc *nats.Conn, iface string, data []byte) {
 		subject = "outpktsec"
 	}
 
-	// var delay = time.Duration(rand.Intn(1000))
+	logOutput("Suspicion Score: %.1f\n", suspicionScore)
 
-	// fmt.Printf("Added Delay: %d\n", delay)
-	// time.Sleep(delay * time.Millisecond)
+	if suspicionScore > CriticalThreatThreshold && mitigatePacket(DropStrategy, suspicionScore) {
+		return // Packet was dropped, don't publish it
+	}
 
 	err := nc.Publish(subject, data)
 	if err != nil {
