@@ -98,7 +98,7 @@ def parse_mitm_log_data(filename):
 
 def calculate_capacity_with_time_diff(message_size, time_diff_ns, correctness):
     """Calculate capacity using time difference between consecutive messages"""
-    if not correctness or time_diff_ns <= 0:
+    if not correctness or time_diff_ns <= 0 or time_diff_ns is None:
         return 0.0
     return message_size / (time_diff_ns / 1e9)
 
@@ -275,7 +275,7 @@ def calculate_additional_metrics(parsed_receiver_data):
         
         # Calculate capacities using pre-calculated time differences
         capacities = []
-        for d in data_with_time_diff:
+        for d in parsed_data:
             capacity = calculate_capacity_with_time_diff(
                 d["message_size"], 
                 d["time_diff_ns"], 
@@ -283,11 +283,9 @@ def calculate_additional_metrics(parsed_receiver_data):
             )
             capacities.append(capacity)
         
-        message_sizes = [d["message_size"] for d in data_with_time_diff]
-        chunks_received = [d["chunks_received"] for d in data_with_time_diff]
-        
-        correct_messages = sum(1 for d in data_with_time_diff if d.get("correctness", False))
-        correctness_rate = correct_messages / len(data_with_time_diff) if len(data_with_time_diff) > 0 else 0
+        message_sizes = [d["message_size"] for d in parsed_data]
+        correct_messages = sum(1 for d in parsed_data if d.get("correctness", False))
+        correctness_rate = correct_messages / len(parsed_data) if len(parsed_data) > 0 else 0
         
         detailed_results[strategy] = {
             'total_messages': len(parsed_data),
@@ -438,11 +436,8 @@ def analyze_receiver_performance(receiver_data):
         if not parsed_data:
             continue
         
-        # Use pre-calculated time differences for capacity calculations (skip first message)
-        data_with_time_diff = [d for d in parsed_data if d["time_diff_ns"] is not None]
-        
         capacities = []
-        for d in data_with_time_diff:
+        for d in parsed_data:
             capacity = calculate_capacity_with_time_diff(
                 d["message_size"], 
                 d["time_diff_ns"], 
