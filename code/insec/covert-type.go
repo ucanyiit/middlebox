@@ -27,7 +27,16 @@ func combineReceivedChunks() {
 		for j := 3; j >= 0; j -= 1 {
 			if i+j < currentSequenceNumber {
 				// Get the received 2 bits from the DNS question type
-				receivedByte := receivedChunks[i+j]
+				receivedByte, exists := receivedChunks[i+j]
+				if !exists {
+					fmt.Printf("Warning: Missing chunk at sequence %d, skipping\n", i+j)
+					break // Skip this missing chunk
+				}
+				// Check if the byte slice is not empty before accessing
+				if len(receivedByte) == 0 {
+					fmt.Printf("Warning: Empty chunk found at sequence %d, skipping\n", i+j)
+					break // Skip this empty chunk
+				}
 				// Convert the byte slice to an int
 				receivedByteNumber := int(receivedByte[0])
 
@@ -60,7 +69,11 @@ func handleTypedDNSQuestion(q dns.Question) {
 		go reassembleAndPrintMessage() // Run in goroutine to not block handler
 	} else {
 		// Get the received 2 bits from the DNS question type
-		receivedByte := DNS_TYPE_MAP_INVERSE[q.Qtype]
+		receivedByte, exists := DNS_TYPE_MAP_INVERSE[q.Qtype]
+		if !exists {
+			fmt.Printf("Warning: Unknown DNS question type %d, ignoring\n", q.Qtype)
+			return
+		}
 		fmt.Printf("Received byte: %d\n", receivedByte)
 
 		bit0 := (receivedByte >> 1) & 1
